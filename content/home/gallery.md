@@ -7,7 +7,7 @@ widget: blank
 headless: true
 
 # Order that this section appears on the page.
-weight: 66
+weight: 80
 
 title: Gallery
 subtitle:
@@ -16,4 +16,9 @@ design:
   columns: '2'
 ---
 
-{{< gallery album="themes" >}}
+{{< gallery caption-position="bottom" hover-effect="grow" caption-effect="fade" >}}
+{{< figure link="img/20211230_meeting.png" caption="Meeting" >}}
+{{< figure link="img/20210203_fmri_study_group.jpg" caption="fMRI Study Group" >}}
+{{< figure link="img/20201118_NTU_psy_conf.jpeg" caption="2nd & 3rd Poster Award" >}}
+{{< figure link="img/20171006_promotion_talk.jpg" caption="Promotion Talk" >}}
+{{< /gallery >}}

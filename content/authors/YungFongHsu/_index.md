@@ -52,6 +52,9 @@ social:
 - icon: google-scholar # graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
   icon_pack: ai
   link: https://google.com
+- icon: orcid
+  icon_pack: ai
+  link: https://orcid.org/0000-0002-5193-9718
 - icon: github
   icon_pack: fab
   link: https://github.com/hsulab322

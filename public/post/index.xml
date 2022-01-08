@@ -7,7 +7,7 @@
     <description>Posts</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © {2021} Cognitive Psychometrics Lab</copyright><lastBuildDate>Sun, 13 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://hsulab.psy.ntu.edu.tw/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <url>https://hsulab.psy.ntu.edu.tw/media/logo_hu79f00f6b01f7fdc12883bfbc2e31ede7_36231_300x300_fit_lanczos_3.png</url>
       <title>Posts</title>
       <link>https://hsulab.psy.ntu.edu.tw/post/</link>
     </image>
@@ -97,7 +97,7 @@ data.head()
 &lt;p&gt;Demo:&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-617542938&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-615287934&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -107,7 +107,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-617542938&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-615287934&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
