@@ -1,4 +1,9 @@
 ---
+# 這是模板所以不發表
+_build:
+  list: false
+  render: false
+  
 title: Internal Project
 summary: An example of using the in-built project page.
 tags:

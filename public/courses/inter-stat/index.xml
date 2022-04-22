@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Intermediate Statistics | Cognitive Psychometrics Lab</title>
+    <link>https://hsulab.psy.ntu.edu.tw/courses/inter-stat/</link>
+      <atom:link href="https://hsulab.psy.ntu.edu.tw/courses/inter-stat/index.xml" rel="self" type="application/rss+xml" />
+    <description>Intermediate Statistics</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © {2021} Cognitive Psychometrics Lab</copyright><lastBuildDate>Sun, 24 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://hsulab.psy.ntu.edu.tw/courses/inter-stat/featured.jpg</url>
+      <title>Intermediate Statistics</title>
+      <link>https://hsulab.psy.ntu.edu.tw/courses/inter-stat/</link>
+    </image>
+    
+  </channel>
+</rss>

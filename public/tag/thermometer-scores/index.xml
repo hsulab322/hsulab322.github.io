@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>thermometer scores | Cognitive Psychometrics Lab</title>
+    <link>https://hsulab.psy.ntu.edu.tw/tag/thermometer-scores/</link>
+      <atom:link href="https://hsulab.psy.ntu.edu.tw/tag/thermometer-scores/index.xml" rel="self" type="application/rss+xml" />
+    <description>thermometer scores</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © {2021} Cognitive Psychometrics Lab</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://hsulab.psy.ntu.edu.tw/media/logo_hu39dac0accd2519207393463f587ca00e_161255_300x300_fit_lanczos_3.png</url>
+      <title>thermometer scores</title>
+      <link>https://hsulab.psy.ntu.edu.tw/tag/thermometer-scores/</link>
+    </image>
+    
+    <item>
+      <title>Towards meaningful inferences from attitudinal thermometer ratings</title>
+      <link>https://hsulab.psy.ntu.edu.tw/publication/regenwetter-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://hsulab.psy.ntu.edu.tw/publication/regenwetter-2019/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,5 +1,5 @@
 ---
-title: Qi-Wen Ding (丁麒文)
+title: Qi-Wen Ding
 
 superuser: false
 
@@ -11,7 +11,7 @@ organizations:
 - name: Academia Sinica 
   url: https://www.sinica.edu.tw/en
 
-bio: "My research interests include ...."
+# bio: "My research interests include ...."
 
 interests:
 - Emodiversity

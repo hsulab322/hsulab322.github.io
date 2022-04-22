@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Up-Down Method | Cognitive Psychometrics Lab</title>
+    <link>https://hsulab.psy.ntu.edu.tw/tag/up-down-method/</link>
+      <atom:link href="https://hsulab.psy.ntu.edu.tw/tag/up-down-method/index.xml" rel="self" type="application/rss+xml" />
+    <description>Up-Down Method</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © {2021} Cognitive Psychometrics Lab</copyright><lastBuildDate>Mon, 01 Aug 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://hsulab.psy.ntu.edu.tw/media/logo_hu39dac0accd2519207393463f587ca00e_161255_300x300_fit_lanczos_3.png</url>
+      <title>Up-Down Method</title>
+      <link>https://hsulab.psy.ntu.edu.tw/tag/up-down-method/</link>
+    </image>
+    
+    <item>
+      <title>以信心強度為底之適測方法閾值估計探究</title>
+      <link>https://hsulab.psy.ntu.edu.tw/project/rcete/</link>
+      <pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
+      <guid>https://hsulab.psy.ntu.edu.tw/project/rcete/</guid>
+      <description>&lt;p&gt;In this project we proposed, mainly methodologically, an alternative method for threshold estimation that is response-confidence embedded and can be implemented into existing (non-parametric, fixed-step-size) up-down methods. We investigated via simulation the convergence pattern of threshold estimation. Using the 75% threshold estimation as an example, we showed that for both large (n=150) and small (n=50) sample sizes, the estimate is by and large good for small step sizes. In particular, for small sample size the convergence depends more on whether the initial value is not far away from the target.&lt;/p&gt;
+&lt;p&gt;我們從方法學角度探討以信心強度為底之閾值估計法則，此法則可套用於現有之（無母數、固定梯級）適測方法。我們藉電腦模擬有系統操弄變項，探討此法則閾值估計之收斂性。我們以75%閾值估計為例，說明不管在大樣本(=150)還是小樣本(=50)情況下，閾值估計在梯級很小時皆大體良好。特別是，在小樣本情況下，閾值估計是否良好端視是否起始值距目標值不要太遠。&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

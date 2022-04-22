@@ -7,7 +7,7 @@ widget: portfolio
 headless: true
 
 # Order that this section appears on the page.
-weight: 65
+weight: 40
 
 title: Projects
 subtitle: ''
@@ -15,6 +15,10 @@ subtitle: ''
 content:
   # Page type to display. E.g. project.
   page_type: project
+  
+  # Field to sort by, such as Date or Title
+  sort_by: 'Date'
+  sort_ascending: false
 
   # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
   filter_default: 0
@@ -27,10 +31,25 @@ content:
   filter_button:
   - name: All
     tag: '*'
-  - name: Deep Learning
-    tag: Deep Learning
-  - name: Other
-    tag: Demo
+  - name: Bayesian
+    tag: Bayesian
+  - name: Decision Making
+    tag: Decision Making
+  - name: Emotion
+    tag: Emotion
+  - name: Fechnerian Representation
+    tag: Fechnerian Representation
+  - name: Law of Similarity
+    tag: Law of Similarity
+  - name: Neuroimaging
+    tag: Neuroimaging
+  - name: Psychophysics 
+    tag: Psychophysics
+  - name: Response Confidence
+    tag: Response Confidence
+  - name: Threshold Theory
+    tag: Threshold Theory
+
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.

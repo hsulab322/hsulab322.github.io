@@ -53,14 +53,14 @@
   
   
 
-  <meta name="author" content="Yung-Fong Hsu (徐永豐)" />
+  <meta name="author" content="Yung-Fong Hsu" />
 
   
   
   
     
   
-  <meta name="description" content="Professor of Psychology" />
+  <meta name="description" content="Yung-Fong Hsu&#39;s Lab, Department of Psychology, National Taiwan University" />
 
   
   <link rel="alternate" hreflang="en-us" href="https://hsulab.psy.ntu.edu.tw/404.html" />
@@ -259,6 +259,45 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RM0X76GFY8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-RM0X76GFY8', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
   
@@ -306,7 +345,7 @@
   <meta property="og:site_name" content="Cognitive Psychometrics Lab" />
   <meta property="og:url" content="https://hsulab.psy.ntu.edu.tw/404.html" />
   <meta property="og:title" content="404 Page not found | Cognitive Psychometrics Lab" />
-  <meta property="og:description" content="Professor of Psychology" /><meta property="og:image" content="https://hsulab.psy.ntu.edu.tw/media/logo_hu39dac0accd2519207393463f587ca00e_161255_300x300_fit_lanczos_3.png" />
+  <meta property="og:description" content="Yung-Fong Hsu&#39;s Lab, Department of Psychology, National Taiwan University" /><meta property="og:image" content="https://hsulab.psy.ntu.edu.tw/media/logo_hu39dac0accd2519207393463f587ca00e_161255_300x300_fit_lanczos_3.png" />
     <meta property="twitter:image" content="https://hsulab.psy.ntu.edu.tw/media/logo_hu39dac0accd2519207393463f587ca00e_161255_300x300_fit_lanczos_3.png" /><meta property="og:locale" content="en-us" />
   
     
@@ -612,43 +651,6 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#talks"><span>Talks</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-
-        
-        
-        
-        
-
-        
-          
-            
-            
-          
-          
-            
-            
-            
-              
-            
-            
-          
-        
-
-        <li class="nav-item">
           <a class="nav-link " href="/#publications"><span>Publications</span></a>
         </li>
 
@@ -676,10 +678,17 @@
             
           
           
+            
+            
+            
+              
+            
+            
+          
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/courses/"><span>Courses</span></a>
+          <a class="nav-link " href="/#gallery"><span>Gallery</span></a>
         </li>
 
         
@@ -716,7 +725,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#join"><span>Join Us!</span></a>
+          <a class="nav-link " href="/#join-us"><span>Join Us!</span></a>
         </li>
 
         
@@ -838,19 +847,19 @@
     
       <li><a href="/publication/">Publications</a></li>
     
-      <li><a href="/publication/cheng_etal_2021/">Can Likert scales predict choices? Testing the congruence between using Likert scale and comparative judgment on measuring attribution</a></li>
+      <li><a href="/publication/cheng/">Incorporating response confidence into adaptive methods for threshold estimation</a></li>
     
-      <li><a href="/publication/doble_hsu_2020/">On the functional forms in a psychophysical law of similarity under a subtractive representation</a></li>
+      <li><a href="/courses/math-method/">Mathematical Methods in Psychology</a></li>
     
-      <li><a href="/courses/example/">📊 Learn Data Science</a></li>
+      <li><a href="/courses/inter-stat/">Intermediate Statistics</a></li>
     
       <li><a href="/courses/">Courses</a></li>
     
+      <li><a href="/publication/ding-2021/">Revisiting the index of entropy-based emodiversity</a></li>
+    
+      <li><a href="/publication/cheng-2021/">Can Likert scales predict choices? Testing the congruence between using Likert scale and comparative judgment on measuring attribution</a></li>
+    
       <li><a href="/courses/example/stats/">Statistics</a></li>
-    
-      <li><a href="/courses/example/visualization/">Visualization</a></li>
-    
-      <li><a href="/courses/example/python/">Python basics</a></li>
     
   </ul>
   

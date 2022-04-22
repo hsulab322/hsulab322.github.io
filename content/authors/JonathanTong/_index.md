@@ -1,14 +1,28 @@
 ---
-title: Jonathan Tong (董建華)
+title: Jonathan Tong
+
 superuser: false
+
 user_groups: ["Graduate Students"]
+
+weight: 31
+
 role: PhD Candidate, International Business
+
 organizations:
 - name: National Taiwan University
   url: https://psy.ntu.edu.tw/
-bio: "My research interests include ...."
+
+# bio: "短簡介區，My research interests include ...."
+
 interests:
-- test123 
+- Neuroeconomics
+- Behavioral Game Theory
+- Computational Cognitive Neuroscience
+- Brain Imaging
+- Neural Symbolic Computing
+- Affective Artificial Intelligence
+
 social:
 - icon: envelope
   icon_pack: fas
@@ -16,9 +30,9 @@ social:
 - icon: facebook
   icon_pack: fab
   link: https://
-- icon: github
-  icon_pack: fab
-  link: https://
+# - icon: github
+#   icon_pack: fab
+#   link: https://
 # - icon: google-scholar # graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
 #  icon_pack: ai
 #  link: ??

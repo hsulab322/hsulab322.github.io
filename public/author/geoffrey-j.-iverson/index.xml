@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Geoffrey J. Iverson | Cognitive Psychometrics Lab</title>
+    <link>https://hsulab.psy.ntu.edu.tw/author/geoffrey-j.-iverson/</link>
+      <atom:link href="https://hsulab.psy.ntu.edu.tw/author/geoffrey-j.-iverson/index.xml" rel="self" type="application/rss+xml" />
+    <description>Geoffrey J. Iverson</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © {2021} Cognitive Psychometrics Lab</copyright><lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://hsulab.psy.ntu.edu.tw/media/logo_hu39dac0accd2519207393463f587ca00e_161255_300x300_fit_lanczos_3.png</url>
+      <title>Geoffrey J. Iverson</title>
+      <link>https://hsulab.psy.ntu.edu.tw/author/geoffrey-j.-iverson/</link>
+    </image>
+    
+    <item>
+      <title>Conditions under which affine representations are also Fechnerian under the power law of similarity on the Weber sensitivities</title>
+      <link>https://hsulab.psy.ntu.edu.tw/publication/hsu-2016/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://hsulab.psy.ntu.edu.tw/publication/hsu-2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Affine representations in psychophysics and the near-miss to Weber’s law</title>
+      <link>https://hsulab.psy.ntu.edu.tw/publication/hsu-2010/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>https://hsulab.psy.ntu.edu.tw/publication/hsu-2010/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

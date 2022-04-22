@@ -1,0 +1,13 @@
+---
+title: "Applications of stochastic media theory to 1992, 1996, and 2000 national election study panel data"
+date: 2007-09-01
+publishDate: 2022-04-20T13:25:43.335581Z
+authors: ["YungFongHsu", "Michel Regenwetter"]
+publication_types: ["2"]
+abstract: "本文將Falmagne等學者發展的一種以排比關係為基礎之媒介理論，應用到有關喜好程度轉變之數學模式研究。此類模式假設喜好程度之轉變是經由環境中某些信號傳遞的影響，而其主要課題即在於建立因時間改變而喜好程度轉變之機制。在此我們討論兩種有關喜好程度之排比：一為weak order，另一為semiorder。在此之前Falmagne等學者曾成功的將weak order模式應用於1992年美國總統選舉之資料分析上，但是對同一筆資料，其semiorder模式之應用並不成功。由於美國總統選舉之資料是以量數評定為依據，而且此評定與以semiorder為基礎之排比關係並無一對－之轉換關係，本文的重點之－便在於此轉換關係之建立。據此，我們發展一套以鄰近狀態反應機制為基礎的semiorder模式。本文比較weak order模式，上述之semiorder模式，以及此二模式之轉入轉出延伸母模式，並將之應用於1992、1996及2000年美國總統選舉之資料分析上。本文最後並嘗試討論模式中一些重要參數之心理意函及其對負向選舉宣傳之解釋。We study a class of stochastic models of persuasion that form an application of media theory developed by Falmagne and others. These models describe the evolution of preferences over time. We consider the case where personal preferences are represented by (strict) weak orders and semiorders. Over time, these preferences may change under the influence of ”tokens” of information arising in the environment. Successful applications of some weak order implementations of stochastic media theory to 1992 U.S. National Election Study (NES) panel data have been reported by Falmagne and various collaborators. However, past attempts to fit a semiorder model to the same data have failed. We successfully fit four media theoretic models, including two semiorder models based on the ”neighboring” response mechanism, to 1992, 1996, and 2000 NES panel data. We compare the fit of these four models, discuss the psychological interpretation of key model parameters and illustrate applications to negative political campaigning."
+featured: false
+publication: "*Chinese Journal of Psychology*"
+tags: ["面版資料; 媒介理論; 排比關係; 量數評定; Semiorder; Weak order; Panel Data; Semiorder; Stochastic Media Theory; Thermometer Scores; Weak Order"]
+doi: "10.6129/CJP.2007.4903.01"
+---
+

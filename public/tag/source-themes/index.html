@@ -53,14 +53,14 @@
   
   
 
-  <meta name="author" content="Yung-Fong Hsu (徐永豐)" />
+  <meta name="author" content="Yung-Fong Hsu" />
 
   
   
   
     
   
-  <meta name="description" content="Professor of Psychology" />
+  <meta name="description" content="Yung-Fong Hsu&#39;s Lab, Department of Psychology, National Taiwan University" />
 
   
   <link rel="alternate" hreflang="en-us" href="https://hsulab.psy.ntu.edu.tw/tag/source-themes/" />
@@ -259,6 +259,45 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RM0X76GFY8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-RM0X76GFY8', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
   
@@ -308,11 +347,11 @@
   <meta property="og:site_name" content="Cognitive Psychometrics Lab" />
   <meta property="og:url" content="https://hsulab.psy.ntu.edu.tw/tag/source-themes/" />
   <meta property="og:title" content="Source Themes | Cognitive Psychometrics Lab" />
-  <meta property="og:description" content="Professor of Psychology" /><meta property="og:image" content="https://hsulab.psy.ntu.edu.tw/media/logo_hu39dac0accd2519207393463f587ca00e_161255_300x300_fit_lanczos_3.png" />
+  <meta property="og:description" content="Yung-Fong Hsu&#39;s Lab, Department of Psychology, National Taiwan University" /><meta property="og:image" content="https://hsulab.psy.ntu.edu.tw/media/logo_hu39dac0accd2519207393463f587ca00e_161255_300x300_fit_lanczos_3.png" />
     <meta property="twitter:image" content="https://hsulab.psy.ntu.edu.tw/media/logo_hu39dac0accd2519207393463f587ca00e_161255_300x300_fit_lanczos_3.png" /><meta property="og:locale" content="en-us" />
   
     
-      <meta property="og:updated_time" content="2021-10-25T00:00:00&#43;00:00" />
+      <meta property="og:updated_time" content="2019-04-07T00:00:00&#43;00:00" />
     
   
 
@@ -616,43 +655,6 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#talks"><span>Talks</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-
-        
-        
-        
-        
-
-        
-          
-            
-            
-          
-          
-            
-            
-            
-              
-            
-            
-          
-        
-
-        <li class="nav-item">
           <a class="nav-link " href="/#publications"><span>Publications</span></a>
         </li>
 
@@ -680,10 +682,17 @@
             
           
           
+            
+            
+            
+              
+            
+            
+          
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/courses/"><span>Courses</span></a>
+          <a class="nav-link " href="/#gallery"><span>Gallery</span></a>
         </li>
 
         
@@ -720,7 +729,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#join"><span>Join Us!</span></a>
+          <a class="nav-link " href="/#join-us"><span>Join Us!</span></a>
         </li>
 
         
@@ -874,239 +883,11 @@
   <div class="media-body">
 
     <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/publication/cheng_etal_2021/" >Can Likert scales predict choices? Testing the congruence between using Likert scale and comparative judgment on measuring attribution</a>
+      <a href="" >An example preprint / working paper</a>
     </div>
 
     
-    <a href="/publication/cheng_etal_2021/"  class="summary-link">
-      <div class="article-style">
-        How people make choices among alternatives are of interest in different areas of psychological research. One paradigm to answer this …
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-  <span >
-      <a href="/author/che-cheng/">Che Cheng</a></span>, <span >
-      <a href="/author/keng-ling-lay/">Keng-Ling Lay</a></span>, <span >
-      <a href="/author/yung-fong-hsu/">Yung-Fong Hsu</a></span>, <span >
-      <a href="/author/yi-miau-tsai/">Yi-Miau Tsai</a></span>
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="http://arxiv.org/pdf/1512.04133v1" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-        data-filename="/publication/cheng_etal_2021/cite.bib">
-  Cite
-</a>
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">
-  Code
-</a>
-
-
-
-
-
-
-
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/slides/example/" target="_blank">
-    Slides
-  </a>
-  
-
-
-
-
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/https://doi.org/10.1016/j.metip.2021.100081" target="_blank" rel="noopener">
-  DOI
-</a>
-
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-    
-  
-    
-      
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/publication/doble_hsu_2020/" >On the functional forms in a psychophysical law of similarity under a subtractive representation</a>
-    </div>
-
-    
-    <a href="/publication/doble_hsu_2020/"  class="summary-link">
-      <div class="article-style">
-        Writing ξs(x) for the stimulus intensity judged greater (louder, heavier, brighter) than stimulus intensity x with criterion s, Iverson …
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-  <span >
-      <a href="/author/christopher-w.doble/">Christopher W.Doble</a></span>, <span >
-      <a href="/author/yung-fong-hsu/">Yung-Fong Hsu</a></span>
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-        data-filename="/publication/doble_hsu_2020/cite.bib">
-  Cite
-</a>
-
-
-
-
-
-
-
-
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/slides/example/" target="_blank">
-    Slides
-  </a>
-  
-
-
-
-
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/https://doi.org/10.1016/j.jmp.2020.102421" target="_blank" rel="noopener">
-  DOI
-</a>
-
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-    
-  
-    
-      
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/publication/preprint/" >An example preprint / working paper</a>
-    </div>
-
-    
-    <a href="/publication/preprint/"  class="summary-link">
+    <a href=""  class="summary-link">
       <div class="article-style">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
       </div>
@@ -1171,7 +952,7 @@
 
 
   
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/internal-project/">
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="">
     Project
   </a>
   
@@ -1236,7 +1017,7 @@
     
     
     
-    <a href="/publication/preprint/" >
+    <a href="" >
       <img src="/publication/preprint/featured_hu559a5add5185b02575aa8333502ab2cc_220813_150x0_resize_q75_lanczos.jpg" alt="An example preprint / working paper" loading="lazy">
     </a>
     
@@ -1269,11 +1050,11 @@
   <div class="media-body">
 
     <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/publication/journal-article/" >An example journal article</a>
+      <a href="" >An example journal article</a>
     </div>
 
     
-    <a href="/publication/journal-article/"  class="summary-link">
+    <a href=""  class="summary-link">
       <div class="article-style">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
       </div>
@@ -1357,7 +1138,7 @@
     
     
     
-    <a href="/publication/journal-article/" >
+    <a href="" >
       <img src="/publication/journal-article/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_214168_150x0_resize_q75_lanczos.jpg" alt="An example journal article" loading="lazy">
     </a>
     
@@ -1390,11 +1171,11 @@
   <div class="media-body">
 
     <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/publication/conference-paper/" >An example conference paper</a>
+      <a href="" >An example conference paper</a>
     </div>
 
     
-    <a href="/publication/conference-paper/"  class="summary-link">
+    <a href=""  class="summary-link">
       <div class="article-style">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
       </div>
@@ -1465,7 +1246,7 @@
 
 
   
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/internal-project/">
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="">
     Project
   </a>
   
@@ -1530,7 +1311,7 @@
     
     
     
-    <a href="/publication/conference-paper/" >
+    <a href="" >
       <img src="/publication/conference-paper/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_312700_150x0_resize_q75_lanczos.jpg" alt="An example conference paper" loading="lazy">
     </a>
     

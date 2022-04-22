@@ -1,4 +1,9 @@
 ---
+# 這是模板所以不發表
+_build:
+  list: false
+  render: false
+ 
 title: 📊 Learn Data Science
 linkTitle: Data Science
 summary: An example of using Wowchemy's Book layout for publishing online courses.

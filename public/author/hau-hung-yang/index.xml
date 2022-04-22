@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hau-Hung Yang | Cognitive Psychometrics Lab</title>
+    <link>https://hsulab.psy.ntu.edu.tw/author/hau-hung-yang/</link>
+      <atom:link href="https://hsulab.psy.ntu.edu.tw/author/hau-hung-yang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Hau-Hung Yang</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © {2021} Cognitive Psychometrics Lab</copyright>
+    <image>
+      <url>https://hsulab.psy.ntu.edu.tw/author/hau-hung-yang/avatar_hu282f041351bc85ed6f40aa8c263e5726_48603_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Hau-Hung Yang</title>
+      <link>https://hsulab.psy.ntu.edu.tw/author/hau-hung-yang/</link>
+    </image>
+    
+  </channel>
+</rss>

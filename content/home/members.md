@@ -1,29 +1,28 @@
 ---
 widget: people
-headless: false  # This file represents a page section.
+headless: false
 active: true
 weight: 30
 
 # ... Put Your Section Options Here (title etc.) ...
 title: Members
+subtitle: "[See full members](./people/)"
+
 authors:
-- YungFongHsu
-- JanathanTong
-- CheCheng
-- TzuYaoLin
-- HauHungYang
+  - YungFongHsu
 
 content:
   # Choose which groups/teams of users to display.
   #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
   user_groups:
-    - Principal Investigator
-    # - Researchers
-    - Graduate Students
-    # - Undergraduate Student
-    # - Administration
-    # - Visitors
-    # - Alumni
+    - Principal Investigator # weight: 1X
+    # - Researchers          # weight: 2X
+    - Graduate Students      # weight: 3X
+    - Undergraduate Students # weight: 4X
+    # - Administration       # weight: 5X
+    # - Visitors             # weight: 6X
+    # - Alumni               # weight: 7X
+    
 design:
   # Show user's social networking links? (true/false)
   show_social: true
@@ -34,3 +33,4 @@ design:
   # Show user's organizations/affiliations?
   show_organizations: true
 ---
+

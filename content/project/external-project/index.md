@@ -1,4 +1,9 @@
 ---
+# 這是模板所以不發表
+_build:
+  list: false
+  render: false
+  
 title: External Project
 summary: An example of linking directly to an external project website using `external_link`.
 tags:

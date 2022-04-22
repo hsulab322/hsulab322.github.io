@@ -7,7 +7,7 @@ widget: contact
 headless: true
 
 # Order that this section appears on the page.
-weight: 130
+weight: 80
 
 title: Contact
 subtitle:
@@ -20,11 +20,10 @@ content:
   form:
     provider: formspree
     formspree:
-      id: test
-    netlify:
-      # Enable CAPTCHA challenge to reduce spam?
-      captcha: false
-  
+      id: xbjwprdb
+
 design:
   columns: '2'
+
+# The contact information is setting at ~/config/_default/params.yaml
 ---

@@ -1,4 +1,10 @@
 ---
+# 這是模板所以不發表
+_build:
+  list: false
+  render: false
+  
+  
 title: "An example journal article"
 authors:
 - admin

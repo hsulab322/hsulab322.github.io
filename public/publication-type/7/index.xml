@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>7 | Cognitive Psychometrics Lab</title>
+    <link>https://hsulab.psy.ntu.edu.tw/publication-type/7/</link>
+      <atom:link href="https://hsulab.psy.ntu.edu.tw/publication-type/7/index.xml" rel="self" type="application/rss+xml" />
+    <description>7</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © {2021} Cognitive Psychometrics Lab</copyright><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://hsulab.psy.ntu.edu.tw/media/logo_hu39dac0accd2519207393463f587ca00e_161255_300x300_fit_lanczos_3.png</url>
+      <title>7</title>
+      <link>https://hsulab.psy.ntu.edu.tw/publication-type/7/</link>
+    </image>
+    
+    <item>
+      <title>Revisiting the index of entropy-based emodiversity</title>
+      <link>https://hsulab.psy.ntu.edu.tw/publication/ding-2021/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://hsulab.psy.ntu.edu.tw/publication/ding-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The influence of combination of response confidence scale with adaptive methods in threshold estimation experiments</title>
+      <link>https://hsulab.psy.ntu.edu.tw/publication/huang-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://hsulab.psy.ntu.edu.tw/publication/huang-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Affective influences on reward-based decision making</title>
+      <link>https://hsulab.psy.ntu.edu.tw/publication/liu-2018/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://hsulab.psy.ntu.edu.tw/publication/liu-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Misfortune might be a blessing in disguise: Novel evidence from model fitting and feedback-related negativity indicates the impact of fairness perception and negative emotional experience in the enhancement of decision-making performance</title>
+      <link>https://hsulab.psy.ntu.edu.tw/publication/hwang-2016/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://hsulab.psy.ntu.edu.tw/publication/hwang-2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An application of confidence rating for a non-parametric adaptive procedure: A weighted up-down procedure with visual analogue scale</title>
+      <link>https://hsulab.psy.ntu.edu.tw/publication/chin-2012/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>https://hsulab.psy.ntu.edu.tw/publication/chin-2012/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Impact of different kinds of attention on perceptual-based sequence learning</title>
+      <link>https://hsulab.psy.ntu.edu.tw/publication/chang-2012/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>https://hsulab.psy.ntu.edu.tw/publication/chang-2012/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reward prediction errors in reinforcement learning: Psychosis, personality, and modeling issues</title>
+      <link>https://hsulab.psy.ntu.edu.tw/publication/li-2012/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>https://hsulab.psy.ntu.edu.tw/publication/li-2012/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recasting the feeling of knowing – a meta-analysis study using probability models</title>
+      <link>https://hsulab.psy.ntu.edu.tw/publication/tseng-2011/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>https://hsulab.psy.ntu.edu.tw/publication/tseng-2011/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Applying non-parametric adaptive methods to psychophysical and simple reaction time studies</title>
+      <link>https://hsulab.psy.ntu.edu.tw/publication/chen-2009/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      <guid>https://hsulab.psy.ntu.edu.tw/publication/chen-2009/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

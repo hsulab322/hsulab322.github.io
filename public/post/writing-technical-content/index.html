@@ -53,7 +53,7 @@
   
   
 
-  <meta name="author" content="Yung-Fong Hsu (徐永豐)" />
+  <meta name="author" content="Yung-Fong Hsu" />
 
   
   
@@ -260,6 +260,45 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RM0X76GFY8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-RM0X76GFY8', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
   
@@ -353,7 +392,7 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
   
   "author": {
     "@type": "Person",
-    "name": "Yung-Fong Hsu (徐永豐)"
+    "name": "Yung-Fong Hsu"
   },
   
   "publisher": {
@@ -668,43 +707,6 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#talks"><span>Talks</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-
-        
-        
-        
-        
-
-        
-          
-            
-            
-          
-          
-            
-            
-            
-              
-            
-            
-          
-        
-
-        <li class="nav-item">
           <a class="nav-link " href="/#publications"><span>Publications</span></a>
         </li>
 
@@ -732,10 +734,17 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
             
           
           
+            
+            
+            
+              
+            
+            
+          
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/courses/"><span>Courses</span></a>
+          <a class="nav-link " href="/#gallery"><span>Gallery</span></a>
         </li>
 
         
@@ -772,7 +781,7 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#join"><span>Join Us!</span></a>
+          <a class="nav-link " href="/#join-us"><span>Join Us!</span></a>
         </li>
 
         
@@ -982,7 +991,7 @@ data.head()
 <p>Demo:</p>
 
 
-<div id="chart-841637259" class="chart"></div>
+<div id="chart-935716248" class="chart"></div>
 <script>
   (function() {
     let a = setInterval( function() {
@@ -992,7 +1001,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json("./line-chart.json", function(chart) {
-        Plotly.plot('chart-841637259', chart.data, chart.layout, {responsive: true});
+        Plotly.plot('chart-935716248', chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -1282,32 +1291,6 @@ You found me!
         </a>
       </li>
     
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="whatsapp://send?text=Writing%20technical%20content%20in%20Academic%20https://hsulab.psy.ntu.edu.tw/post/writing-technical-content/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
-          <i class="fab fa-whatsapp"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://hsulab.psy.ntu.edu.tw/post/writing-technical-content/&amp;title=Writing%20technical%20content%20in%20Academic" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
-          <i class="fab fa-weibo"></i>
-        </a>
-      </li>
-    
   </ul>
 </div>
 
@@ -1329,18 +1312,16 @@ You found me!
   
   
   
-    
-  
   
   
   <div class="media author-card content-widget-hr">
     
       
-      <a href="https://hsulab.psy.ntu.edu.tw/"><img class="avatar mr-3 avatar-circle" src="/author/yung-fong-hsu-%E5%BE%90%E6%B0%B8%E8%B1%90/avatar_huc3e6f4df02936f93f05ef2bcc9263a19_181535_270x270_fill_q75_lanczos_center.jpg" alt="Yung-Fong Hsu (徐永豐)"></a>
+      <a href="/author/yung-fong-hsu/"><img class="avatar mr-3 avatar-circle" src="/author/yung-fong-hsu/avatar_huc3e6f4df02936f93f05ef2bcc9263a19_181535_270x270_fill_q75_lanczos_center.jpg" alt="Yung-Fong Hsu"></a>
     
 
     <div class="media-body">
-      <h5 class="card-title"><a href="https://hsulab.psy.ntu.edu.tw/">Yung-Fong Hsu (徐永豐)</a></h5>
+      <h5 class="card-title"><a href="/author/yung-fong-hsu/">Yung-Fong Hsu</a></h5>
       <h6 class="card-subtitle">Professor of Psychology</h6>
       
       <ul class="network-icon" aria-hidden="true">
@@ -1359,21 +1340,6 @@ You found me!
     <li>
       <a href="/#contact" >
         <i class="fas fa-envelope"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://google.com" target="_blank" rel="noopener">
-        <i class="ai ai-google-scholar"></i>
       </a>
     </li>
   

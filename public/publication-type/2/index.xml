@@ -5,7 +5,7 @@
     <link>https://hsulab.psy.ntu.edu.tw/publication-type/2/</link>
       <atom:link href="https://hsulab.psy.ntu.edu.tw/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © {2021} Cognitive Psychometrics Lab</copyright><lastBuildDate>Mon, 25 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © {2021} Cognitive Psychometrics Lab</copyright><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://hsulab.psy.ntu.edu.tw/media/logo_hu39dac0accd2519207393463f587ca00e_161255_300x300_fit_lanczos_3.png</url>
       <title>2</title>
@@ -14,28 +14,65 @@
     
     <item>
       <title>Can Likert scales predict choices? Testing the congruence between using Likert scale and comparative judgment on measuring attribution</title>
-      <link>https://hsulab.psy.ntu.edu.tw/publication/cheng_etal_2021/</link>
-      <pubDate>Mon, 25 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>https://hsulab.psy.ntu.edu.tw/publication/cheng_etal_2021/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <link>https://hsulab.psy.ntu.edu.tw/publication/cheng-2021/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://hsulab.psy.ntu.edu.tw/publication/cheng-2021/</guid>
+      <description></description>
     </item>
     
     <item>
       <title>On the functional forms in a psychophysical law of similarity under a subtractive representation</title>
-      <link>https://hsulab.psy.ntu.edu.tw/publication/doble_hsu_2020/</link>
-      <pubDate>Sun, 24 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>https://hsulab.psy.ntu.edu.tw/publication/doble_hsu_2020/</guid>
+      <link>https://hsulab.psy.ntu.edu.tw/publication/doble-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://hsulab.psy.ntu.edu.tw/publication/doble-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The asymmetry of altruistic giving when givers outnumber recipients and vice versa: A dictator game experiment and a behavioral economics model</title>
+      <link>https://hsulab.psy.ntu.edu.tw/publication/chiang-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://hsulab.psy.ntu.edu.tw/publication/chiang-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards meaningful inferences from attitudinal thermometer ratings</title>
+      <link>https://hsulab.psy.ntu.edu.tw/publication/regenwetter-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://hsulab.psy.ntu.edu.tw/publication/regenwetter-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Direct election of group decision-makers can facilitate cooperation in the public goods game</title>
+      <link>https://hsulab.psy.ntu.edu.tw/publication/chiang-2017/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://hsulab.psy.ntu.edu.tw/publication/chiang-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Misfortune may be a blessing in disguise: Fairness perception and emotion modulate decision making</title>
+      <link>https://hsulab.psy.ntu.edu.tw/publication/liu-2017/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://hsulab.psy.ntu.edu.tw/publication/liu-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conditions under which affine representations are also Fechnerian under the power law of similarity on the Weber sensitivities</title>
+      <link>https://hsulab.psy.ntu.edu.tw/publication/hsu-2016/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://hsulab.psy.ntu.edu.tw/publication/hsu-2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An example journal article</title>
+      <link></link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      <guid></guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -51,22 +88,131 @@
     </item>
     
     <item>
-      <title>An example journal article</title>
-      <link>https://hsulab.psy.ntu.edu.tw/publication/journal-article/</link>
-      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>https://hsulab.psy.ntu.edu.tw/publication/journal-article/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <title>A threshold theory account of psychometric functions with response confidence under the balance condition</title>
+      <link>https://hsulab.psy.ntu.edu.tw/publication/hsu-2015/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://hsulab.psy.ntu.edu.tw/publication/hsu-2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Effects of affective arousal on choice behavior, reward prediction errors, and feedback-related negativities in human reward-based decision making</title>
+      <link>https://hsulab.psy.ntu.edu.tw/publication/liu-2015/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://hsulab.psy.ntu.edu.tw/publication/liu-2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using a reinforcement learning model and Bayes factors to study gender differences and personality correlations in reward prediction errors</title>
+      <link>https://hsulab.psy.ntu.edu.tw/publication/li-2014-a/</link>
+      <pubDate>Mon, 01 Dec 2014 00:00:00 +0000</pubDate>
+      <guid>https://hsulab.psy.ntu.edu.tw/publication/li-2014-a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inferring reward prediction errors in patients with schizophrenia: A dynamic reward task for reinforcement learning</title>
+      <link>https://hsulab.psy.ntu.edu.tw/publication/li-2014/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://hsulab.psy.ntu.edu.tw/publication/li-2014/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On the limitations of fixed-step-size adaptive methods with response confidence</title>
+      <link>https://hsulab.psy.ntu.edu.tw/publication/hsu-2014/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://hsulab.psy.ntu.edu.tw/publication/hsu-2014/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Assessing memory deficits using latent class (hierarchical) multinomial processing tree modeling: An illustration using data from clinical groups in Taiwan</title>
+      <link>https://hsulab.psy.ntu.edu.tw/publication/hsu-2013/</link>
+      <pubDate>Fri, 01 Mar 2013 00:00:00 +0000</pubDate>
+      <guid>https://hsulab.psy.ntu.edu.tw/publication/hsu-2013/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Akt1 deficiency modulates reward learning and reward prediction error in mice</title>
+      <link>https://hsulab.psy.ntu.edu.tw/publication/chen-2012/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>https://hsulab.psy.ntu.edu.tw/publication/chen-2012/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Relative salience affects the process of detecting changes in orientation and luminance</title>
+      <link>https://hsulab.psy.ntu.edu.tw/publication/yang-2011/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>https://hsulab.psy.ntu.edu.tw/publication/yang-2011/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Convergence of non-parametric adaptive threshold estimation in the yes-no task</title>
+      <link>https://hsulab.psy.ntu.edu.tw/publication/chen-2010/</link>
+      <pubDate>Mon, 01 Mar 2010 00:00:00 +0000</pubDate>
+      <guid>https://hsulab.psy.ntu.edu.tw/publication/chen-2010/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Affine representations in psychophysics and the near-miss to Weber’s law</title>
+      <link>https://hsulab.psy.ntu.edu.tw/publication/hsu-2010/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>https://hsulab.psy.ntu.edu.tw/publication/hsu-2010/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Applications of nonparametric adaptive methods for simple reaction time experiments</title>
+      <link>https://hsulab.psy.ntu.edu.tw/publication/hsu-2009/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      <guid>https://hsulab.psy.ntu.edu.tw/publication/hsu-2009/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stochastic applications of media theory: Random walks on weak orders or partial orders</title>
+      <link>https://hsulab.psy.ntu.edu.tw/publication/falmagne-2008/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      <guid>https://hsulab.psy.ntu.edu.tw/publication/falmagne-2008/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Applications of stochastic media theory to 1992, 1996, and 2000 national election study panel data</title>
+      <link>https://hsulab.psy.ntu.edu.tw/publication/hsu-2007/</link>
+      <pubDate>Sat, 01 Sep 2007 00:00:00 +0000</pubDate>
+      <guid>https://hsulab.psy.ntu.edu.tw/publication/hsu-2007/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A generalization of Piéron&#39;s law to include background intensity and latency distribution</title>
+      <link>https://hsulab.psy.ntu.edu.tw/publication/hsu-2005-b/</link>
+      <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
+      <guid>https://hsulab.psy.ntu.edu.tw/publication/hsu-2005-b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On measuring the minimum detection time: A simple reaction time study in the time estimation paradigm</title>
+      <link>https://hsulab.psy.ntu.edu.tw/publication/hsu-2005/</link>
+      <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
+      <guid>https://hsulab.psy.ntu.edu.tw/publication/hsu-2005/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The tune in-and-out model: A random walk and its application to a presidential election survey</title>
+      <link>https://hsulab.psy.ntu.edu.tw/publication/hsu-2005-a/</link>
+      <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
+      <guid>https://hsulab.psy.ntu.edu.tw/publication/hsu-2005-a/</guid>
+      <description></description>
     </item>
     
   </channel>

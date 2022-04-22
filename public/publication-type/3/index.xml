@@ -5,7 +5,7 @@
     <link>https://hsulab.psy.ntu.edu.tw/publication-type/3/</link>
       <atom:link href="https://hsulab.psy.ntu.edu.tw/publication-type/3/index.xml" rel="self" type="application/rss+xml" />
     <description>3</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © {2021} Cognitive Psychometrics Lab</copyright><lastBuildDate>Sun, 07 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © {2021} Cognitive Psychometrics Lab</copyright><lastBuildDate>Wed, 20 Apr 2022 13:25:42 +0000</lastBuildDate>
     <image>
       <url>https://hsulab.psy.ntu.edu.tw/media/logo_hu39dac0accd2519207393463f587ca00e_161255_300x300_fit_lanczos_3.png</url>
       <title>3</title>
@@ -13,10 +13,18 @@
     </image>
     
     <item>
+      <title>Incorporating response confidence into adaptive methods for threshold estimation</title>
+      <link>https://hsulab.psy.ntu.edu.tw/publication/cheng/</link>
+      <pubDate>Wed, 20 Apr 2022 13:25:42 +0000</pubDate>
+      <guid>https://hsulab.psy.ntu.edu.tw/publication/cheng/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>An example preprint / working paper</title>
-      <link>https://hsulab.psy.ntu.edu.tw/publication/preprint/</link>
+      <link></link>
       <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>https://hsulab.psy.ntu.edu.tw/publication/preprint/</guid>
+      <guid></guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.

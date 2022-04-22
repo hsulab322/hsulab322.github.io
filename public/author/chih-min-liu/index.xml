@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chih-Min Liu | Cognitive Psychometrics Lab</title>
+    <link>https://hsulab.psy.ntu.edu.tw/author/chih-min-liu/</link>
+      <atom:link href="https://hsulab.psy.ntu.edu.tw/author/chih-min-liu/index.xml" rel="self" type="application/rss+xml" />
+    <description>Chih-Min Liu</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © {2021} Cognitive Psychometrics Lab</copyright><lastBuildDate>Wed, 01 Jan 2014 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://hsulab.psy.ntu.edu.tw/media/logo_hu39dac0accd2519207393463f587ca00e_161255_300x300_fit_lanczos_3.png</url>
+      <title>Chih-Min Liu</title>
+      <link>https://hsulab.psy.ntu.edu.tw/author/chih-min-liu/</link>
+    </image>
+    
+    <item>
+      <title>Inferring reward prediction errors in patients with schizophrenia: A dynamic reward task for reinforcement learning</title>
+      <link>https://hsulab.psy.ntu.edu.tw/publication/li-2014/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://hsulab.psy.ntu.edu.tw/publication/li-2014/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

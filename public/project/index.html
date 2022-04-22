@@ -53,14 +53,14 @@
   
   
 
-  <meta name="author" content="Yung-Fong Hsu (徐永豐)" />
+  <meta name="author" content="Yung-Fong Hsu" />
 
   
   
   
     
   
-  <meta name="description" content="Professor of Psychology" />
+  <meta name="description" content="Yung-Fong Hsu&#39;s Lab, Department of Psychology, National Taiwan University" />
 
   
   <link rel="alternate" hreflang="en-us" href="https://hsulab.psy.ntu.edu.tw/project/" />
@@ -259,6 +259,45 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RM0X76GFY8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-RM0X76GFY8', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
   
@@ -308,11 +347,11 @@
   <meta property="og:site_name" content="Cognitive Psychometrics Lab" />
   <meta property="og:url" content="https://hsulab.psy.ntu.edu.tw/project/" />
   <meta property="og:title" content="Projects | Cognitive Psychometrics Lab" />
-  <meta property="og:description" content="Professor of Psychology" /><meta property="og:image" content="https://hsulab.psy.ntu.edu.tw/media/logo_hu39dac0accd2519207393463f587ca00e_161255_300x300_fit_lanczos_3.png" />
+  <meta property="og:description" content="Yung-Fong Hsu&#39;s Lab, Department of Psychology, National Taiwan University" /><meta property="og:image" content="https://hsulab.psy.ntu.edu.tw/media/logo_hu39dac0accd2519207393463f587ca00e_161255_300x300_fit_lanczos_3.png" />
     <meta property="twitter:image" content="https://hsulab.psy.ntu.edu.tw/media/logo_hu39dac0accd2519207393463f587ca00e_161255_300x300_fit_lanczos_3.png" /><meta property="og:locale" content="en-us" />
   
     
-      <meta property="og:updated_time" content="2016-04-27T00:00:00&#43;00:00" />
+      <meta property="og:updated_time" content="2020-08-01T00:00:00&#43;00:00" />
     
   
 
@@ -616,43 +655,6 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#talks"><span>Talks</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-
-        
-        
-        
-        
-
-        
-          
-            
-            
-          
-          
-            
-            
-            
-              
-            
-            
-          
-        
-
-        <li class="nav-item">
           <a class="nav-link " href="/#publications"><span>Publications</span></a>
         </li>
 
@@ -680,10 +682,17 @@
             
           
           
+            
+            
+            
+              
+            
+            
+          
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/courses/"><span>Courses</span></a>
+          <a class="nav-link " href="/#gallery"><span>Gallery</span></a>
         </li>
 
         
@@ -720,7 +729,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#join"><span>Join Us!</span></a>
+          <a class="nav-link " href="/#join-us"><span>Join Us!</span></a>
         </li>
 
         
@@ -858,9 +867,6 @@
 
 
 
-  
-  
-
 
   
 
@@ -877,13 +883,13 @@
   <div class="media-body">
 
     <div class="section-subheading article-title mb-0 mt-0">
-      <a href="http://example.org" target="_blank" rel="noopener">External Project</a>
+      <a href="/project/edp/" >風險情境下雙元歷程決策衝突時情緒之仲裁機制及其腦神經活動</a>
     </div>
 
     
-    <a href="http://example.org" target="_blank" rel="noopener" class="summary-link">
+    <a href="/project/edp/"  class="summary-link">
       <div class="article-style">
-        An example of linking directly to an external project website using <code>external_link</code>.
+        本研究釐清情緒與雙元歷程之間的關係，並進一步將情緒因素納入雙元歷程衝突的調節機制。
       </div>
     </a>
     
@@ -892,6 +898,14 @@
 
       
 
+      
+      <div>
+        
+
+  <span class="author-highlighted">
+      <a href="/author/yung-fong-hsu/">Yung-Fong Hsu</a></span>, <span class="author-highlighted">
+      <a href="/author/jonathan-tong/">Jonathan Tong</a></span>
+      </div>
       
     </div>
 
@@ -902,8 +916,8 @@
     
     
     
-    <a href="http://example.org" target="_blank" rel="noopener">
-      <img src="/project/external-project/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_329522_150x0_resize_q75_lanczos.jpg" alt="External Project" loading="lazy">
+    <a href="/project/edp/" >
+      <img src="/project/edp/featured_hu5934465db55a9eb6f12c99b9b46e8ec1_16960_150x0_resize_q75_lanczos.jpg" alt="風險情境下雙元歷程決策衝突時情緒之仲裁機制及其腦神經活動" loading="lazy">
     </a>
     
   </div>
@@ -935,13 +949,13 @@
   <div class="media-body">
 
     <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/project/internal-project/" >Internal Project</a>
+      <a href="/project/ltcm/" >文化共識理論架構下的閾值理論延伸：排序型類別資料分析</a>
     </div>
 
     
-    <a href="/project/internal-project/"  class="summary-link">
+    <a href="/project/ltcm/"  class="summary-link">
       <div class="article-style">
-        An example of using the in-built project page.
+        本研究於「文化共識理論」架構下發展一結合反應信心於閾值理論的分析方法處理文化情境下排序型類別資料(如：李克特量表資料)。
       </div>
     </a>
     
@@ -950,6 +964,14 @@
 
       
 
+      
+      <div>
+        
+
+  <span class="author-highlighted">
+      <a href="/author/yung-fong-hsu/">Yung-Fong Hsu</a></span>, <span class="author-highlighted">
+      <a href="/author/tzu-yao-lin/">Tzu-Yao Lin</a></span>
+      </div>
       
     </div>
 
@@ -968,6 +990,9 @@
 
 
 
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/ltcm/LTCM.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
 
 
 
@@ -977,29 +1002,12 @@
 
 
 
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/slides/example/" target="_blank">
-    Slides
-  </a>
-  
 
 
 
 
 
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://twitter.com/georgecushen" target="_blank" rel="noopener">
-    <i class="fab fa-twitter mr-1"></i>Follow</a>
+
 
 
     </div>
@@ -1010,9 +1018,476 @@
     
     
     
-    <a href="/project/internal-project/" >
-      <img src="/project/internal-project/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_224363_150x0_resize_q75_lanczos.jpg" alt="Internal Project" loading="lazy">
+    <a href="/project/ltcm/" >
+      <img src="/project/ltcm/featured_hude9b75096c971c0f7f85ccc4ae0176f1_85033_150x0_resize_q75_lanczos.jpg" alt="文化共識理論架構下的閾值理論延伸：排序型類別資料分析" loading="lazy">
     </a>
+    
+  </div>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/project/los2/" >心理物理學相似律所含參數之函數性質於費區納表徵下之探究</a>
+    </div>
+
+    
+    <a href="/project/los2/"  class="summary-link">
+      <div class="article-style">
+        我們探討在費區納表徵下，作用於韋伯敏感度的「相似律」屬性從數學「 規律變異」角度切入，探討此「相似律」所含參數的函數特徵。
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span class="author-highlighted">
+      <a href="/author/yung-fong-hsu/">Yung-Fong Hsu</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/los2/LoS2.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/project/los2/" >
+      <img src="/project/los2/featured_hu88103ef970097ed2ee83154e9a6bf0f5_85033_150x0_resize_q75_lanczos.jpg" alt="心理物理學相似律所含參數之函數性質於費區納表徵下之探究" loading="lazy">
+    </a>
+    
+  </div>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/project/rcete/" >以信心強度為底之適測方法閾值估計探究</a>
+    </div>
+
+    
+    <a href="/project/rcete/"  class="summary-link">
+      <div class="article-style">
+        我們從方法學角度探討以信心強度為底之閾值估計法則，此法則可套用於現有之（無母數、固定梯級）適測方法。
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span class="author-highlighted">
+      <a href="/author/yung-fong-hsu/">Yung-Fong Hsu</a></span>, <span class="author-highlighted">
+      <a href="/author/che-cheng/">Che Cheng</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/rcete/RCETE.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/project/rcete/" >
+      <img src="/project/rcete/featured_hucd10786492827e39e6d81efb5ce64361_85033_150x0_resize_q75_lanczos.jpg" alt="以信心強度為底之適測方法閾值估計探究" loading="lazy">
+    </a>
+    
+  </div>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/project/books/" >補助人文及社會科學研究圖書計畫規劃主題：智力與性格差異 的理論與測量(從數理模型到神經運作與基因遺傳)</a>
+    </div>
+
+    
+    <a href="/project/books/"  class="summary-link">
+      <div class="article-style">
+        。
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span class="author-highlighted">
+      <a href="/author/yung-fong-hsu/">Yung-Fong Hsu</a></span>, <span class="author-highlighted">
+      <a href="/author/che-cheng/">Che Cheng</a></span>, <span class="author-highlighted">
+      <a href="/author/yin-dir-hwang/">Yin-Dir Hwang</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/books/Books.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/project/books/" >
+      <img src="/project/books/featured_hu5c7c59cf8b480d0b3c083418ebc8d83e_1097845_150x0_resize_q75_lanczos.jpg" alt="補助人文及社會科學研究圖書計畫規劃主題：智力與性格差異 的理論與測量(從數理模型到神經運作與基因遺傳)" loading="lazy">
+    </a>
+    
+  </div>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/project/los/" >心理物理學相似律與仿射表徵互動之探究</a>
+    </div>
+
+    
+    <a href="/project/los/"  class="summary-link">
+      <div class="article-style">
+        我們假設一心理物理「相似律」，探討在此同質性假設下，仿射表徵的量尺函數形式。
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span class="author-highlighted">
+      <a href="/author/yung-fong-hsu/">Yung-Fong Hsu</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/los/LoS.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/project/los/" >
+      <img src="/project/los/featured_hu88103ef970097ed2ee83154e9a6bf0f5_85033_150x0_resize_q75_lanczos.jpg" alt="心理物理學相似律與仿射表徵互動之探究" loading="lazy">
+    </a>
+    
+  </div>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/project/eerl/" >從預期錯誤角度探討回饋型決策作業之酬懲歷程：實證研究與模式探討</a>
+    </div>
+
+    
+    <a href="/project/eerl/"  class="summary-link">
+      <div class="article-style">
+        我們藉一 改良式「動態酬賞作業」,從預期錯誤角度探討與情緒調控有關之回饋型決策作業酬懲歷程。
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span class="author-highlighted">
+      <a href="/author/yung-fong-hsu/">Yung-Fong Hsu</a></span>
+      </div>
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
     
   </div>
 </div>

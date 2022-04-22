@@ -53,14 +53,14 @@
   
   
 
-  <meta name="author" content="Yung-Fong Hsu (徐永豐)" />
+  <meta name="author" content="Yung-Fong Hsu" />
 
   
   
   
     
   
-  <meta name="description" content="Professor of Psychology" />
+  <meta name="description" content="Yung-Fong Hsu&#39;s Lab, Department of Psychology, National Taiwan University" />
 
   
   <link rel="alternate" hreflang="en-us" href="https://hsulab.psy.ntu.edu.tw/courses/" />
@@ -259,6 +259,45 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RM0X76GFY8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-RM0X76GFY8', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
   
@@ -308,7 +347,7 @@
   <meta property="og:site_name" content="Cognitive Psychometrics Lab" />
   <meta property="og:url" content="https://hsulab.psy.ntu.edu.tw/courses/" />
   <meta property="og:title" content="Courses | Cognitive Psychometrics Lab" />
-  <meta property="og:description" content="Professor of Psychology" /><meta property="og:image" content="https://hsulab.psy.ntu.edu.tw/media/logo_hu39dac0accd2519207393463f587ca00e_161255_300x300_fit_lanczos_3.png" />
+  <meta property="og:description" content="Yung-Fong Hsu&#39;s Lab, Department of Psychology, National Taiwan University" /><meta property="og:image" content="https://hsulab.psy.ntu.edu.tw/media/logo_hu39dac0accd2519207393463f587ca00e_161255_300x300_fit_lanczos_3.png" />
     <meta property="twitter:image" content="https://hsulab.psy.ntu.edu.tw/media/logo_hu39dac0accd2519207393463f587ca00e_161255_300x300_fit_lanczos_3.png" /><meta property="og:locale" content="en-us" />
   
     
@@ -616,43 +655,6 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#talks"><span>Talks</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-
-        
-        
-        
-        
-
-        
-          
-            
-            
-          
-          
-            
-            
-            
-              
-            
-            
-          
-        
-
-        <li class="nav-item">
           <a class="nav-link " href="/#publications"><span>Publications</span></a>
         </li>
 
@@ -680,10 +682,17 @@
             
           
           
+            
+            
+            
+              
+            
+            
+          
         
 
         <li class="nav-item">
-          <a class="nav-link  active" href="/courses/"><span>Courses</span></a>
+          <a class="nav-link " href="/#gallery"><span>Gallery</span></a>
         </li>
 
         
@@ -720,7 +729,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#join"><span>Join Us!</span></a>
+          <a class="nav-link " href="/#join-us"><span>Join Us!</span></a>
         </li>
 
         
@@ -875,11 +884,11 @@
   <div class="media-body">
 
     <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/courses/example/" >📊 Learn Data Science</a>
+      <a href="/courses/inter-stat/" >Intermediate Statistics</a>
     </div>
 
     
-    <a href="/courses/example/"  class="summary-link">
+    <a href="/courses/inter-stat/"  class="summary-link">
       <div class="article-style">
         An example of using Wowchemy&rsquo;s Book layout for publishing online courses.
       </div>
@@ -935,8 +944,99 @@
     
     
     
-    <a href="/courses/example/" >
-      <img src="/courses/example/featured_hu76eaa58daf827988c1005eeac201f4e9_1602413_150x0_resize_q75_lanczos.jpg" alt="📊 Learn Data Science" loading="lazy">
+    <a href="/courses/inter-stat/" >
+      <img src="/courses/inter-stat/featured_hu1901b65078b445401a19570d94463778_880450_150x0_resize_q75_lanczos.jpg" alt="Intermediate Statistics" loading="lazy">
+    </a>
+    
+  </div>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/courses/math-method/" >Mathematical Methods in Psychology</a>
+    </div>
+
+    
+    <a href="/courses/math-method/"  class="summary-link">
+      <div class="article-style">
+        An example of using Wowchemy&rsquo;s Book layout for publishing online courses.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Jan 24, 2021
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/courses/math-method/" >
+      <img src="/courses/math-method/featured_hu74177654cff68cebd76fd5b230773721_200285_150x0_resize_q75_lanczos.jpg" alt="Mathematical Methods in Psychology" loading="lazy">
     </a>
     
   </div>

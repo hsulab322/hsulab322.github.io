@@ -53,7 +53,7 @@
   
   
 
-  <meta name="author" content="Yung-Fong Hsu (徐永豐)" />
+  <meta name="author" content="Yung-Fong Hsu" />
 
   
   
@@ -257,6 +257,45 @@
 
   
 
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RM0X76GFY8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-RM0X76GFY8', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
 
 
   
@@ -666,43 +705,6 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#talks"><span>Talks</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-
-        
-        
-        
-        
-
-        
-          
-            
-            
-          
-          
-            
-            
-            
-              
-            
-            
-          
-        
-
-        <li class="nav-item">
           <a class="nav-link " href="/#publications"><span>Publications</span></a>
         </li>
 
@@ -730,10 +732,17 @@
             
           
           
+            
+            
+            
+              
+            
+            
+          
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/courses/"><span>Courses</span></a>
+          <a class="nav-link " href="/#gallery"><span>Gallery</span></a>
         </li>
 
         
@@ -770,7 +779,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#join"><span>Join Us!</span></a>
+          <a class="nav-link " href="/#join-us"><span>Join Us!</span></a>
         </li>
 
         
@@ -1097,32 +1106,6 @@
       <li>
         <a href="https://www.linkedin.com/shareArticle?url=https://hsulab.psy.ntu.edu.tw/post/getting-started/&amp;title=Welcome%20to%20Wowchemy,%20the%20website%20builder%20for%20Hugo" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
           <i class="fab fa-linkedin-in"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="whatsapp://send?text=Welcome%20to%20Wowchemy,%20the%20website%20builder%20for%20Hugo%20https://hsulab.psy.ntu.edu.tw/post/getting-started/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
-          <i class="fab fa-whatsapp"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://hsulab.psy.ntu.edu.tw/post/getting-started/&amp;title=Welcome%20to%20Wowchemy,%20the%20website%20builder%20for%20Hugo" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
-          <i class="fab fa-weibo"></i>
         </a>
       </li>
     

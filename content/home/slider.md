@@ -1,7 +1,7 @@
 ---
 widget: slider
 headless: true  # This file represents a page section.
-weight: 10
+weight: 1
 active: true
 
 # Slide interval.
@@ -14,7 +14,7 @@ height: 300px
 
 item:
   - title: '**Cognitive Psychometrics Lab**'
-    content: 'Some Slogan??'
+    content: 'Department of Psychology, National Taiwan University'
     # Choose `center`, `left`, or `right` alignment.
     align: center
     # Overlay a color or image (optional).
@@ -29,12 +29,14 @@ item:
     # cta_url: 'https://example.org'
     # cta_icon_pack: fas
     # cta_icon: graduation-cap
+  
   - title: Left
     content: 'I am left aligned 😄'
     align: left
     overlay_color: '#555'
     overlay_img: 'bg-2.jpg'
     overlay_filter: 0.9
+  
   - title: Right
     content: 'I am right aligned 😄'
     align: right

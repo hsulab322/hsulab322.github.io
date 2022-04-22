@@ -53,7 +53,7 @@
   
   
 
-  <meta name="author" content="Yung-Fong Hsu (徐永豐)" />
+  <meta name="author" content="Yung-Fong Hsu" />
 
   
   
@@ -259,6 +259,45 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RM0X76GFY8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-RM0X76GFY8', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
   
@@ -363,7 +402,7 @@
   
   "performer": {
     "@type": "Person",
-    "name": "Yung-Fong Hsu (徐永豐)"
+    "name": "Yung-Fong Hsu"
   },
   
   "description": "An example talk using Wowchemy's Markdown slides feature."
@@ -668,43 +707,6 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#talks"><span>Talks</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-
-        
-        
-        
-        
-
-        
-          
-            
-            
-          
-          
-            
-            
-            
-              
-            
-            
-          
-        
-
-        <li class="nav-item">
           <a class="nav-link " href="/#publications"><span>Publications</span></a>
         </li>
 
@@ -732,10 +734,17 @@
             
           
           
+            
+            
+            
+              
+            
+            
+          
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/courses/"><span>Courses</span></a>
+          <a class="nav-link " href="/#gallery"><span>Gallery</span></a>
         </li>
 
         
@@ -772,7 +781,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#join"><span>Join Us!</span></a>
+          <a class="nav-link " href="/#join-us"><span>Join Us!</span></a>
         </li>
 
         
@@ -954,7 +963,7 @@
 
 
   
-  <a class="btn btn-outline-primary btn-page-header" href="/project/internal-project/">
+  <a class="btn btn-outline-primary btn-page-header" href="">
     Project
   </a>
   
@@ -1141,32 +1150,6 @@
         </a>
       </li>
     
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="whatsapp://send?text=Example%20Talk%20https://hsulab.psy.ntu.edu.tw/talk/example-talk/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
-          <i class="fab fa-whatsapp"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://hsulab.psy.ntu.edu.tw/talk/example-talk/&amp;title=Example%20Talk" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
-          <i class="fab fa-weibo"></i>
-        </a>
-      </li>
-    
   </ul>
 </div>
 
@@ -1188,18 +1171,16 @@
   
   
   
-    
-  
   
   
   <div class="media author-card content-widget-hr">
     
       
-      <a href="https://hsulab.psy.ntu.edu.tw/"><img class="avatar mr-3 avatar-circle" src="/author/yung-fong-hsu-%E5%BE%90%E6%B0%B8%E8%B1%90/avatar_huc3e6f4df02936f93f05ef2bcc9263a19_181535_270x270_fill_q75_lanczos_center.jpg" alt="Yung-Fong Hsu (徐永豐)"></a>
+      <a href="/author/yung-fong-hsu/"><img class="avatar mr-3 avatar-circle" src="/author/yung-fong-hsu/avatar_huc3e6f4df02936f93f05ef2bcc9263a19_181535_270x270_fill_q75_lanczos_center.jpg" alt="Yung-Fong Hsu"></a>
     
 
     <div class="media-body">
-      <h5 class="card-title"><a href="https://hsulab.psy.ntu.edu.tw/">Yung-Fong Hsu (徐永豐)</a></h5>
+      <h5 class="card-title"><a href="/author/yung-fong-hsu/">Yung-Fong Hsu</a></h5>
       <h6 class="card-subtitle">Professor of Psychology</h6>
       
       <ul class="network-icon" aria-hidden="true">
@@ -1218,21 +1199,6 @@
     <li>
       <a href="/#contact" >
         <i class="fas fa-envelope"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://google.com" target="_blank" rel="noopener">
-        <i class="ai ai-google-scholar"></i>
       </a>
     </li>
   

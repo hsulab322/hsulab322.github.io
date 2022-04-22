@@ -53,14 +53,14 @@
   
   
 
-  <meta name="author" content="Yung-Fong Hsu (徐永豐)" />
+  <meta name="author" content="Yung-Fong Hsu" />
 
   
   
   
     
   
-  <meta name="description" content="Professor of Psychology" />
+  <meta name="description" content="Yung-Fong Hsu&#39;s Lab, Department of Psychology, National Taiwan University" />
 
   
   <link rel="alternate" hreflang="en-us" href="https://hsulab.psy.ntu.edu.tw/" />
@@ -122,9 +122,11 @@
         
       
         
+          
+        
       
         
-          
+      
         
       
         
@@ -299,6 +301,45 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RM0X76GFY8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-RM0X76GFY8', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
   
@@ -350,7 +391,7 @@
   <meta property="og:site_name" content="Cognitive Psychometrics Lab" />
   <meta property="og:url" content="https://hsulab.psy.ntu.edu.tw/" />
   <meta property="og:title" content="Cognitive Psychometrics Lab" />
-  <meta property="og:description" content="Professor of Psychology" /><meta property="og:image" content="https://hsulab.psy.ntu.edu.tw/media/logo_hu39dac0accd2519207393463f587ca00e_161255_300x300_fit_lanczos_3.png" />
+  <meta property="og:description" content="Yung-Fong Hsu&#39;s Lab, Department of Psychology, National Taiwan University" /><meta property="og:image" content="https://hsulab.psy.ntu.edu.tw/media/logo_hu39dac0accd2519207393463f587ca00e_161255_300x300_fit_lanczos_3.png" />
     <meta property="twitter:image" content="https://hsulab.psy.ntu.edu.tw/media/logo_hu39dac0accd2519207393463f587ca00e_161255_300x300_fit_lanczos_3.png" /><meta property="og:locale" content="en-us" />
   
     
@@ -373,6 +414,31 @@
 }
 </script>
 
+
+  
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "EducationalOrganization",
+  "@id": "https://hsulab.psy.ntu.edu.tw/",
+  "name": "Cognitive Psychometrics Lab",
+  "logo": "https://hsulab.psy.ntu.edu.tw/media/logo_hu39dac0accd2519207393463f587ca00e_161255_192x192_fit_lanczos_3.png",
+  
+  
+  
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "No. 1, Sec. 4, Roosevelt Rd.",
+    "addressLocality": "Taipei",
+    "addressRegion": "",
+    "postalCode": "10617",
+    "addressCountry": "TW"
+  },
+  
+  "telephone": "886-2-33663114",
+  "url": "https://hsulab.psy.ntu.edu.tw/"
+}
+</script>
 
   
 
@@ -672,43 +738,6 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#talks" data-target="#talks"><span>Talks</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-
-        
-        
-        
-        
-
-        
-          
-            
-            
-          
-          
-            
-            
-            
-              
-            
-            
-          
-        
-
-        <li class="nav-item">
           <a class="nav-link " href="/#publications" data-target="#publications"><span>Publications</span></a>
         </li>
 
@@ -736,10 +765,17 @@
             
           
           
+            
+            
+            
+              
+            
+            
+          
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/courses/"><span>Courses</span></a>
+          <a class="nav-link " href="/#gallery" data-target="#gallery"><span>Gallery</span></a>
         </li>
 
         
@@ -776,7 +812,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#join" data-target="#join"><span>Join Us!</span></a>
+          <a class="nav-link " href="/#join-us" data-target="#join-us"><span>Join Us!</span></a>
         </li>
 
         
@@ -1004,7 +1040,7 @@
 
         
         <p class="hero-lead" style="margin: 0 auto 0 auto;">
-          Some Slogan??
+          Department of Psychology, National Taiwan University
         </p>
         
 
@@ -1148,198 +1184,37 @@
   
 
   
-  <section id="about" class="home-section wg-about  "  >
+  <section id="about" class="home-section wg-blank  "  >
    <div class="home-section-bg " >
      
    </div>
     <div class="container">
 
     
+      <div class="row  ">
+      
+        
+          <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+            <h1 class="mb-0">What we do</h1>
+            <p class="mt-1">&hellip; and how we do it</p>
+          </div>
+        
+      
+    
 
       
 
 
 
-
-  
-
-
-
-
-
-
-
-
-
-
-<div class="row">
-  <div class="col-12 col-lg-4">
-    <div id="profile">
-
-      
-      
-      <img class="avatar avatar-circle"
-           width="270" height="270"
-           src="/author/yung-fong-hsu-%E5%BE%90%E6%B0%B8%E8%B1%90/avatar_huc3e6f4df02936f93f05ef2bcc9263a19_181535_270x270_fill_q75_lanczos_center.jpg" alt="Yung-Fong Hsu (徐永豐)">
-      
-
-      <div class="portrait-title">
-        <h2>Yung-Fong Hsu (徐永豐)</h2>
-        <h3>Professor of Psychology</h3>
-
-        
-        <h3>
-          <a href="https://psy.ntu.edu.tw/" target="_blank" rel="noopener">
-          <span>National Taiwan University</span>
-          </a>
-        </h3>
-        
-      </div>
-
-      <ul class="network-icon" aria-hidden="true">
-        
-        
-        
-        
-          
-        
-        
-        
-        
-        
-          
-        
-        <li>
-          <a href="/#contact"  aria-label="envelope">
-            <i class="fas fa-envelope big-icon"></i>
-          </a>
-        </li>
-        
-        
-        
-        
-        
-        
-        
-        
-          
-        
-        <li>
-          <a href="https://google.com" target="_blank" rel="noopener" aria-label="google-scholar">
-            <i class="ai ai-google-scholar big-icon"></i>
-          </a>
-        </li>
-        
-        
-        
-        
-        
-        
-        
-        
-          
-        
-        <li>
-          <a href="https://orcid.org/0000-0002-5193-9718" target="_blank" rel="noopener" aria-label="orcid">
-            <i class="ai ai-orcid big-icon"></i>
-          </a>
-        </li>
-        
-        
-        
-        
-          
-        
-        
-        
-        
-        
-          
-        
-        <li>
-          <a href="https://github.com/hsulab322" target="_blank" rel="noopener" aria-label="github">
-            <i class="fab fa-github big-icon"></i>
-          </a>
-        </li>
-        
-        
-        
-        
-        
-        
-        
-        
-          
-        
-        <li>
-          <a href="/uploads/YungFongHsu.pdf"  aria-label="cv">
-            <i class="ai ai-cv big-icon"></i>
-          </a>
-        </li>
-        
-      </ul>
-
-    </div>
-  </div>
   <div class="col-12 col-lg-8">
+    <p>Add any content here - text, images, videos, galleries - and even HTML code!</p>
+
+  </div>
+
+
 
     
-    <h1>Biography</h1>
-
-    <div class="article-style">
-      <p>Professor Yung-Fong Hsu’s specialty is Quantitative Psychology, particularly the application of algebraic and probabilistic modeling to decision analysis across different disciplines in the behavioral sciences. In the past few years, he has accomplished research in several topics. First, he has participated in a series of studies concerning prediction errors in reward-based decision making using behavioral, model-fitting, and electrophysiological approaches. The results contribute to our understanding of the role of prediction errors in belief formation and belief perseveration, providing convergent evidence toward a unified theory to explain, e.g., aberrant behavior in patients with schizophrenia. Second, he has studied the homogeneity law within Fechnerian psychophysics. The results contribute to our understanding of the interplay of Weber-function related empirical regularity and extensions of the Fechnerian representation that can be used to characterize a large family of models of discrimination probabilities. Third, he has been involved in developing stochastic process models of preference change for paneled attitudinal data. A closely related work concerning the measurement issue of thermometer ratings and Likert scales was discussed from the meaningfulness viewpoint, and a semiorder-based model was developed. Fourth, he has done some work concerning the role of response confidence in threshold estimation in psychophysics. The work helps lead to the development of an alternative response-confidence embedded algorithm. Recently, he has been involved in a project that explores the role of emotion during the conflict of dual processing (heuristic vs. analytic) in decision making using multimodal approaches (including behavioral, PET-fMRI and MRS-fMRI).</p>
-<p>
-  <i class="fas fa-download  pr-1 fa-fw"></i> Download my <a href="/uploads/resume.pdf" target="_blank">resumé</a>.</p>
-
-    </div>
-
-    <div class="row">
-
-      
-      <div class="col-md-5">
-        <div class="section-subheading">Interests</div>
-        <ul class="ul-interests mb-0">
-          
-          <li>Psychophysics</li>
-          
-          <li>Decision analysis</li>
-          
-          <li>Mathematical psychology</li>
-          
-        </ul>
       </div>
-      
-
-      
-      <div class="col-md-7">
-        <div class="section-subheading">Education</div>
-        <ul class="ul-edu fa-ul mb-0">
-          
-          <li>
-            <i class="fa-li fas fa-graduation-cap"></i>
-            <div class="description">
-              <p class="course">PhD in Psychology, 1998</p>
-              <p class="institution">University of California, Irvine</p>
-            </div>
-          </li>
-          
-          <li>
-            <i class="fa-li fas fa-graduation-cap"></i>
-            <div class="description">
-              <p class="course">BSc in Psychology, 1988</p>
-              <p class="institution">National Chengchi University</p>
-            </div>
-          </li>
-          
-        </ul>
-      </div>
-      
-
-    </div>
-  </div>
-</div>
-
-
     
 
     </div>
@@ -1417,7 +1292,7 @@
   
   <div class="col-md-12 section-heading">
     <h1>Members</h1>
-    
+    <p><a href="./people/">See full members</a></p>
   </div>
   
 
@@ -1447,11 +1322,11 @@
     
     
       
-      <a href="/author/yung-fong-hsu-%E5%BE%90%E6%B0%B8%E8%B1%90/"><img class="avatar avatar-circle" src="/author/yung-fong-hsu-%E5%BE%90%E6%B0%B8%E8%B1%90/avatar_huc3e6f4df02936f93f05ef2bcc9263a19_181535_270x270_fill_q75_lanczos_center.jpg" alt="Avatar"></a>
+      <a href="/author/yung-fong-hsu/"><img class="avatar avatar-circle" src="/author/yung-fong-hsu/avatar_huc3e6f4df02936f93f05ef2bcc9263a19_181535_270x270_fill_q75_lanczos_center.jpg" alt="Avatar"></a>
     
 
     <div class="portrait-title">
-      <h2><a href="/author/yung-fong-hsu-%E5%BE%90%E6%B0%B8%E8%B1%90/">Yung-Fong Hsu (徐永豐)</a></h2>
+      <h2><a href="/author/yung-fong-hsu/">Yung-Fong Hsu</a></h2>
       <h3>National Taiwan University</h3>
       <h3>Professor of Psychology</h3>
       <ul class="network-icon" aria-hidden="true">
@@ -1470,21 +1345,6 @@
     <li>
       <a href="/#contact" >
         <i class="fas fa-envelope"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://google.com" target="_blank" rel="noopener">
-        <i class="ai ai-google-scholar"></i>
       </a>
     </li>
   
@@ -1565,11 +1425,87 @@
     
     
       
-      <a href="/author/che-cheng-%E9%84%AD%E6%BE%88/"><img class="avatar avatar-circle" src="/author/che-cheng-%E9%84%AD%E6%BE%88/avatar_hua5f8f999cd9f2039888bee1a9451024b_7586_270x270_fill_q75_lanczos_center.jpg" alt="Avatar"></a>
+      <a href="/author/jonathan-tong/"><img class="avatar avatar-circle" src="/author/jonathan-tong/avatar_huec06d5eb2fee801ec273d7d91e14b495_225286_270x270_fill_q75_lanczos_center.jpg" alt="Avatar"></a>
     
 
     <div class="portrait-title">
-      <h2><a href="/author/che-cheng-%E9%84%AD%E6%BE%88/">Che Cheng (鄭澈)</a></h2>
+      <h2><a href="/author/jonathan-tong/">Jonathan Tong</a></h2>
+      <h3>National Taiwan University</h3>
+      <h3>PhD Candidate, International Business</h3>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:d03323003@ntu.edu.tw" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://" target="_blank" rel="noopener">
+        <i class="fab fa-facebook"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/uploads/JonathanTong_CV.pdf" >
+        <i class="ai ai-cv"></i>
+      </a>
+    </li>
+  
+</ul>
+
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+      
+      
+    
+    
+      
+      <a href="/author/che-cheng/"><img class="avatar avatar-circle" src="/author/che-cheng/avatar_hu18da0f42c8607e8d671bac5d19f8a0f5_22785_270x270_fill_q75_lanczos_center.jpg" alt="Avatar"></a>
+    
+
+    <div class="portrait-title">
+      <h2><a href="/author/che-cheng/">Che Cheng</a></h2>
       <h3>National Taiwan University</h3>
       <h3>PhD Candidate, Psychology</h3>
       <ul class="network-icon" aria-hidden="true">
@@ -1656,163 +1592,11 @@
     
     
       
-      <a href="/author/hau-hung-yang-%E6%A5%8A%E6%98%8A%E7%B4%98/"><img class="avatar avatar-circle" src="/author/hau-hung-yang-%E6%A5%8A%E6%98%8A%E7%B4%98/avatar_hu282f041351bc85ed6f40aa8c263e5726_48603_270x270_fill_q75_lanczos_center.jpg" alt="Avatar"></a>
+      <a href="/author/tzu-yao-lin/"><img class="avatar avatar-circle" src="/author/tzu-yao-lin/avatar_hu8733c7ed2b05ef4e9d2d9969239f9975_1765909_270x270_fill_q75_lanczos_center.jpg" alt="Avatar"></a>
     
 
     <div class="portrait-title">
-      <h2><a href="/author/hau-hung-yang-%E6%A5%8A%E6%98%8A%E7%B4%98/">Hau-Hung Yang (楊昊紘)</a></h2>
-      <h3>National Taiwan University</h3>
-      <h3>MSc student, Psychology</h3>
-      <ul class="network-icon" aria-hidden="true">
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-    <li>
-      <a href="mailto:r09227103@ntu.edu.tw" >
-        <i class="fas fa-envelope"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="/uploads/HauHungYang_CV.pdf" >
-        <i class="ai ai-cv"></i>
-      </a>
-    </li>
-  
-</ul>
-
-      
-    </div>
-  </div>
-  
-  
-  
-  
-  
-    
-  
-  <div class="col-12 col-sm-auto people-person">
-    
-    
-      
-      
-    
-    
-      
-      <a href="/author/jonathan-tong-%E8%91%A3%E5%BB%BA%E8%8F%AF/"><img class="avatar avatar-circle" src="/author/jonathan-tong-%E8%91%A3%E5%BB%BA%E8%8F%AF/avatar_huec06d5eb2fee801ec273d7d91e14b495_225286_270x270_fill_q75_lanczos_center.jpg" alt="Avatar"></a>
-    
-
-    <div class="portrait-title">
-      <h2><a href="/author/jonathan-tong-%E8%91%A3%E5%BB%BA%E8%8F%AF/">Jonathan Tong (董建華)</a></h2>
-      <h3>National Taiwan University</h3>
-      <h3>PhD Candidate, International Business</h3>
-      <ul class="network-icon" aria-hidden="true">
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-    <li>
-      <a href="mailto:d03323003@ntu.edu.tw" >
-        <i class="fas fa-envelope"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://" target="_blank" rel="noopener">
-        <i class="fab fa-facebook"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://" target="_blank" rel="noopener">
-        <i class="fab fa-github"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="/uploads/JonathanTong_CV.pdf" >
-        <i class="ai ai-cv"></i>
-      </a>
-    </li>
-  
-</ul>
-
-      
-    </div>
-  </div>
-  
-  
-  
-  
-  
-    
-  
-  <div class="col-12 col-sm-auto people-person">
-    
-    
-      
-      
-    
-    
-      
-      <a href="/author/tzu-yao-lin-%E6%9E%97%E5%AD%90%E5%A0%AF/"><img class="avatar avatar-circle" src="/author/tzu-yao-lin-%E6%9E%97%E5%AD%90%E5%A0%AF/avatar_hu8733c7ed2b05ef4e9d2d9969239f9975_1765909_270x270_fill_q75_lanczos_center.jpg" alt="Avatar"></a>
-    
-
-    <div class="portrait-title">
-      <h2><a href="/author/tzu-yao-lin-%E6%9E%97%E5%AD%90%E5%A0%AF/">Tzu-Yao Lin (林子堯)</a></h2>
+      <h2><a href="/author/tzu-yao-lin/">Tzu-Yao Lin</a></h2>
       <h3>National Taiwan University</h3>
       <h3>MSc Student, Psychology</h3>
       <ul class="network-icon" aria-hidden="true">
@@ -1878,6 +1662,197 @@
     <li>
       <a href="/uploads/TzuYaoLin_CV.pdf" >
         <i class="ai ai-cv"></i>
+      </a>
+    </li>
+  
+</ul>
+
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+      
+      
+    
+    
+      
+      <a href="/author/hau-hung-yang/"><img class="avatar avatar-circle" src="/author/hau-hung-yang/avatar_hu282f041351bc85ed6f40aa8c263e5726_48603_270x270_fill_q75_lanczos_center.jpg" alt="Avatar"></a>
+    
+
+    <div class="portrait-title">
+      <h2><a href="/author/hau-hung-yang/">Hau-Hung Yang</a></h2>
+      <h3>National Taiwan University</h3>
+      <h3>MSc student, Psychology</h3>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:r09227103@ntu.edu.tw" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/uploads/HauHungYang_CV.pdf" >
+        <i class="ai ai-cv"></i>
+      </a>
+    </li>
+  
+</ul>
+
+      
+    </div>
+  </div>
+  
+  
+  
+
+  
+  <div class="col-md-12">
+    <h2 class="mb-4">Undergraduate Students</h2>
+  </div>
+  
+
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+      
+      
+    
+    
+      
+      <a href="/author/yen-ting-li/"><img class="avatar avatar-circle" src="/author/yen-ting-li/avatar_hu648aed0ec608e3390ba3d2851eb0fd81_400679_270x270_fill_q75_lanczos_center.jpg" alt="Avatar"></a>
+    
+
+    <div class="portrait-title">
+      <h2><a href="/author/yen-ting-li/">Yen-Ting Li</a></h2>
+      <h3>National Taiwan University</h3>
+      <h3>BSc student, Psychology</h3>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:b08207008@ntu.edu.tw" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/lytt925" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+</ul>
+
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+      
+      
+    
+    
+      
+      <a href="/author/wei-lun-lin/"><img class="avatar avatar-circle" src="/author/wei-lun-lin/avatar_hu52a603635ecebd45650b162dadabb4e5_12861_270x270_fill_q75_lanczos_center.jpg" alt="Avatar"></a>
+    
+
+    <div class="portrait-title">
+      <h2><a href="/author/wei-lun-lin/">Wei-Lun Lin</a></h2>
+      <h3>National Taiwan University</h3>
+      <h3>BSc student, Psychology</h3>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:b09207052@ntu.edu.tw" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/weilun9539ny" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
       </a>
     </li>
   
@@ -2455,12 +2430,47 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
               
               
               
-              <a href="#" data-filter=".js-id-Deep-Learning" class="btn btn-primary btn-lg">Deep Learning</a>
+              <a href="#" data-filter=".js-id-Bayesian" class="btn btn-primary btn-lg">Bayesian</a>
             
               
               
               
-              <a href="#" data-filter=".js-id-Demo" class="btn btn-primary btn-lg">Other</a>
+              <a href="#" data-filter=".js-id-Decision-Making" class="btn btn-primary btn-lg">Decision Making</a>
+            
+              
+              
+              
+              <a href="#" data-filter=".js-id-Emotion" class="btn btn-primary btn-lg">Emotion</a>
+            
+              
+              
+              
+              <a href="#" data-filter=".js-id-Fechnerian-Representation" class="btn btn-primary btn-lg">Fechnerian Representation</a>
+            
+              
+              
+              
+              <a href="#" data-filter=".js-id-Law-of-Similarity" class="btn btn-primary btn-lg">Law of Similarity</a>
+            
+              
+              
+              
+              <a href="#" data-filter=".js-id-Neuroimaging" class="btn btn-primary btn-lg">Neuroimaging</a>
+            
+              
+              
+              
+              <a href="#" data-filter=".js-id-Psychophysics" class="btn btn-primary btn-lg">Psychophysics</a>
+            
+              
+              
+              
+              <a href="#" data-filter=".js-id-Response-Confidence" class="btn btn-primary btn-lg">Response Confidence</a>
+            
+              
+              
+              
+              <a href="#" data-filter=".js-id-Threshold-Theory" class="btn btn-primary btn-lg">Threshold Theory</a>
             
           </div>
         </div>
@@ -2481,9 +2491,6 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
       
       
       
-        
-        
-      
 
       
         
@@ -2501,20 +2508,20 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
 
 
 
-<div class="project-card project-item isotope-item js-id-Demo">
+<div class="project-card project-item isotope-item js-id-Neuroimaging js-id-Decision-Making js-id-Dual-Process-Theory js-id-Emotion">
   <div class="card">
     
     
-    <a href="http://example.org" target="_blank" rel="noopener" class="card-image hover-overlay">
-      <img src="/project/external-project/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_329522_550x0_resize_q75_lanczos.jpg" alt="External Project" class="img-responsive" loading="lazy">
+    <a href="/project/edp/"  class="card-image hover-overlay">
+      <img src="/project/edp/featured_hu5934465db55a9eb6f12c99b9b46e8ec1_16960_550x0_resize_q75_lanczos.jpg" alt="風險情境下雙元歷程決策衝突時情緒之仲裁機制及其腦神經活動" class="img-responsive" loading="lazy">
     </a>
     
     <div class="card-text">
-      <h4><a href="http://example.org" target="_blank" rel="noopener">External Project</a></h4>
+      <h4><a href="/project/edp/" >風險情境下雙元歷程決策衝突時情緒之仲裁機制及其腦神經活動</a></h4>
 
       
       <div class="article-style">
-        <p>An example of linking directly to an external project website using <code>external_link</code>.</p>
+        <p>本研究釐清情緒與雙元歷程之間的關係，並進一步將情緒因素納入雙元歷程衝突的調節機制。</p>
       </div>
       
 
@@ -2547,20 +2554,20 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
 
 
 
-<div class="project-card project-item isotope-item js-id-Deep-Learning">
+<div class="project-card project-item isotope-item js-id-Cultural-Consensus-Theory js-id-Threshold-Theory js-id-Bayesian js-id-Response-Confidence">
   <div class="card">
     
     
-    <a href="/project/internal-project/"  class="card-image hover-overlay">
-      <img src="/project/internal-project/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_224363_550x0_resize_q75_lanczos.jpg" alt="Internal Project" class="img-responsive" loading="lazy">
+    <a href="/project/ltcm/"  class="card-image hover-overlay">
+      <img src="/project/ltcm/featured_hude9b75096c971c0f7f85ccc4ae0176f1_85033_550x0_resize_q75_lanczos.jpg" alt="文化共識理論架構下的閾值理論延伸：排序型類別資料分析" class="img-responsive" loading="lazy">
     </a>
     
     <div class="card-text">
-      <h4><a href="/project/internal-project/" >Internal Project</a></h4>
+      <h4><a href="/project/ltcm/" >文化共識理論架構下的閾值理論延伸：排序型類別資料分析</a></h4>
 
       
       <div class="article-style">
-        <p>An example of using the in-built project page.</p>
+        <p>本研究於「文化共識理論」架構下發展一結合反應信心於閾值理論的分析方法處理文化情境下排序型類別資料(如：李克特量表資料)。</p>
       </div>
       
 
@@ -2579,6 +2586,9 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
 
 
 
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/ltcm/LTCM.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
 
 
 
@@ -2588,29 +2598,12 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
 
 
 
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/slides/example/" target="_blank">
-    Slides
-  </a>
-  
 
 
 
 
 
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://twitter.com/georgecushen" target="_blank" rel="noopener">
-    <i class="fab fa-twitter mr-1"></i>Follow</a>
+
 
 
       </div>
@@ -2622,264 +2615,376 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
       
 
     
-  </div>
-</div>
 
+      
+      
+      
 
-    
-      </div>
-    
-
-    </div>
-  </section>
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-
-  
-  <section id="talks" class="home-section wg-pages  "  >
-   <div class="home-section-bg " >
-     
-   </div>
-    <div class="container">
-
-    
-      <div class="row  ">
       
         
-          <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
-            <h1 class="mb-0">Recent &amp; Upcoming Talks</h1>
-            
-          </div>
-        
-      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-Psychophysics js-id-Threshold-Theory js-id-Fechnerian-Representation js-id-Functional-Equation js-id-Law-of-Similarity js-id-Weber-Sensitivity js-id-Regular-Variation">
+  <div class="card">
     
+    
+    <a href="/project/los2/"  class="card-image hover-overlay">
+      <img src="/project/los2/featured_hu88103ef970097ed2ee83154e9a6bf0f5_85033_550x0_resize_q75_lanczos.jpg" alt="心理物理學相似律所含參數之函數性質於費區納表徵下之探究" class="img-responsive" loading="lazy">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="/project/los2/" >心理物理學相似律所含參數之函數性質於費區納表徵下之探究</a></h4>
 
       
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-
-
-<div class="col-12 col-lg-8">
-
-  
-
-  
-    
-      
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/talk/example-talk/" >Example Talk</a>
-    </div>
-
-    
-    <a href="/talk/example-talk/"  class="summary-link">
       <div class="article-style">
-        An example talk using Wowchemy&rsquo;s Markdown slides feature.
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-      <div>
-        <span>
-          Jun 1, 2030 1:00 PM &mdash; 3:00 PM
-        </span>
-        
-        <span class="middot-divider"></span>
-        <span>Wowchemy HQ</span>
-        
+        <p>我們探討在費區納表徵下，作用於韋伯敏感度的「相似律」屬性從數學「 規律變異」角度切入，探討此「相似律」所含參數的函數特徵。</p>
       </div>
       
 
       
-    </div>
+      <div class="btn-links">
+        
 
-    
-    <div class="btn-links">
+
+
+
+
+
+
+
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/los2/LoS2.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
       
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/internal-project/">
-    Project
-  </a>
-  
-
-
-
-
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/slides/example/" target="_blank">
-    Slides
-  </a>
-  
-
-
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://twitter.com/georgecushen" target="_blank" rel="noopener">
-    <i class="fab fa-twitter mr-1"></i>Follow</a>
-
-
     </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/talk/example-talk/" >
-      <img src="/talk/example-talk/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_620088_150x0_resize_q75_lanczos.jpg" alt="Example Talk" loading="lazy">
-    </a>
-    
   </div>
 </div>
 
+      
+
     
-  
+
+      
+      
+      
+
+      
+        
+
+
+
+
+
+
+
 
   
-  
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-Psychophysics js-id-Threshold-Estimation js-id-Response-Confidence js-id-Up-Down-Method">
+  <div class="card">
+    
+    
+    <a href="/project/rcete/"  class="card-image hover-overlay">
+      <img src="/project/rcete/featured_hucd10786492827e39e6d81efb5ce64361_85033_550x0_resize_q75_lanczos.jpg" alt="以信心強度為底之適測方法閾值估計探究" class="img-responsive" loading="lazy">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="/project/rcete/" >以信心強度為底之適測方法閾值估計探究</a></h4>
+
+      
+      <div class="article-style">
+        <p>我們從方法學角度探討以信心強度為底之閾值估計法則，此法則可套用於現有之（無母數、固定梯級）適測方法。</p>
+      </div>
+      
+
+      
+      <div class="btn-links">
+        
+
+
+
+
+
+
+
+
   
 
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/rcete/RCETE.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+      
+
+    
+
+      
+      
+      
+
+      
+        
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-Library-Collection js-id-Individual-Difference js-id-Intelligence js-id-Personality js-id-Measurement-Theory js-id-Test-Theory js-id-Mathematical-Model js-id-Neural-Mechanism js-id-Genetics">
+  <div class="card">
+    
+    
+    <a href="/project/books/"  class="card-image hover-overlay">
+      <img src="/project/books/featured_hu5c7c59cf8b480d0b3c083418ebc8d83e_1097845_550x0_resize_q75_lanczos.jpg" alt="補助人文及社會科學研究圖書計畫規劃主題：智力與性格差異 的理論與測量(從數理模型到神經運作與基因遺傳)" class="img-responsive" loading="lazy">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="/project/books/" >補助人文及社會科學研究圖書計畫規劃主題：智力與性格差異 的理論與測量(從數理模型到神經運作與基因遺傳)</a></h4>
+
+      
+      <div class="article-style">
+        <p>。</p>
+      </div>
+      
+
+      
+      <div class="btn-links">
+        
+
+
+
+
+
+
+
+
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/books/Books.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+      
+
+    
+
+      
+      
+      
+
+      
+        
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-Psychophysics js-id-Threshold-Theory js-id-Fechnerian-Representation js-id-Functional-Equation js-id-Law-of-Similarity js-id-Weber-Sensitivity js-id-Regular-Variation">
+  <div class="card">
+    
+    
+    <a href="/project/los/"  class="card-image hover-overlay">
+      <img src="/project/los/featured_hu88103ef970097ed2ee83154e9a6bf0f5_85033_550x0_resize_q75_lanczos.jpg" alt="心理物理學相似律與仿射表徵互動之探究" class="img-responsive" loading="lazy">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="/project/los/" >心理物理學相似律與仿射表徵互動之探究</a></h4>
+
+      
+      <div class="article-style">
+        <p>我們假設一心理物理「相似律」，探討在此同質性假設下，仿射表徵的量尺函數形式。</p>
+      </div>
+      
+
+      
+      <div class="btn-links">
+        
+
+
+
+
+
+
+
+
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/los/LoS.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+      
+
+    
+
+      
+      
+      
+
+      
+        
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-Decision-Making js-id-Dynamic-Reword-Task js-id-Expected-Error js-id-Reinforce-Learning js-id-Emotion">
+  <div class="card">
+    
+    <div class="card-text">
+      <h4><a href="/project/eerl/" >從預期錯誤角度探討回饋型決策作業之酬懲歷程：實證研究與模式探討</a></h4>
+
+      
+      <div class="article-style">
+        <p>我們藉一 改良式「動態酬賞作業」,從預期錯誤角度探討與情緒調控有關之回饋型決策作業酬懲歷程。</p>
+      </div>
+      
+
+      
+    </div>
+  </div>
+</div>
+
+      
+
+    
+  </div>
 </div>
 
 
@@ -3007,12 +3112,7 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
 
 <div class="col-12 col-lg-8">
 
-  <div class="alert alert-note">
-  <div>
-    Quickly discover relevant content by <a href="./publication/">filtering publications</a>.
-  </div>
-</div>
-
+  
 
   
     
@@ -3027,15 +3127,77 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
   <span class="article-metadata li-cite-author">
     
 
-  <span >
+  <span class="author-highlighted">
+      <a href="/author/che-cheng/">Che Cheng</a></span>, <span class="author-highlighted">
+      <a href="/author/yan-jun-huang/">Yan-Jun Huang</a></span>, <span class="author-highlighted">
+      <a href="/author/yung-fong-hsu/">Yung-Fong Hsu</a></span>
+  </span>
+  (2022).
+  <a href="/publication/cheng/">Incorporating response confidence into adaptive methods for threshold estimation</a>.
+  <em>Chinese Journal of Psychology</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/cheng/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+  
+</div>
+
+    
+  
+    
+      
+
+<div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span class="author-highlighted">
       <a href="/author/che-cheng/">Che Cheng</a></span>, <span >
-      <a href="/author/keng-ling-lay/">Keng-Ling Lay</a></span>, <span >
+      <a href="/author/keng-ling-lay/">Keng-Ling Lay</a></span>, <span class="author-highlighted">
       <a href="/author/yung-fong-hsu/">Yung-Fong Hsu</a></span>, <span >
       <a href="/author/yi-miau-tsai/">Yi-Miau Tsai</a></span>
   </span>
   (2021).
-  <a href="/publication/cheng_etal_2021/">Can Likert scales predict choices? Testing the congruence between using Likert scale and comparative judgment on measuring attribution</a>.
-  <em>Methods in Psychology, 5</em>.
+  <a href="/publication/cheng-2021/">Can Likert scales predict choices? Testing the congruence between using Likert scale and comparative judgment on measuring attribution</a>.
+  <em>Methods in Psychology</em>.
   
   <p>
 
@@ -3052,25 +3214,18 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
 
 
 
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="http://arxiv.org/pdf/1512.04133v1" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.sciencedirect.com/science/article/pii/S2590260121000382" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
 <a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-        data-filename="/publication/cheng_etal_2021/cite.bib">
+        data-filename="/publication/cheng-2021/cite.bib">
   Cite
 </a>
 
 
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">
-  Code
-</a>
 
 
 
@@ -3078,16 +3233,11 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
 
 
 
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/slides/example/" target="_blank">
-    Slides
-  </a>
-  
 
 
 
 
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/https://doi.org/10.1016/j.metip.2021.100081" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1016/j.metip.2021.100081" target="_blank" rel="noopener">
   DOI
 </a>
 
@@ -3112,13 +3262,11 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
   <span class="article-metadata li-cite-author">
     
 
-  <span >
-      <a href="/author/christopher-w.doble/">Christopher W.Doble</a></span>, <span >
-      <a href="/author/yung-fong-hsu/">Yung-Fong Hsu</a></span>
+  <span class="author-highlighted">
+      <a href="/author/qi-wen-ding/">Qi-Wen Ding</a></span>
   </span>
   (2021).
-  <a href="/publication/doble_hsu_2020/">On the functional forms in a psychophysical law of similarity under a subtractive representation</a>.
-  <em>Journal of Mathematical Psychology, 98</em>.
+  <a href="/publication/ding-2021/">Revisiting the index of entropy-based emodiversity</a>.
   
   <p>
 
@@ -3130,13 +3278,19 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
 
 
   
+    
+  
 
 
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://hdl.handle.net/11296/d5u73z" target="_blank" rel="noopener">
+  PDF
+</a>
 
 
 
 <a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-        data-filename="/publication/doble_hsu_2020/cite.bib">
+        data-filename="/publication/ding-2021/cite.bib">
   Cite
 </a>
 
@@ -3147,16 +3301,12 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
 
 
 
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/slides/example/" target="_blank">
-    Slides
-  </a>
-  
 
 
 
 
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/https://doi.org/10.1016/j.jmp.2020.102421" target="_blank" rel="noopener">
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.6342/NTU202100208" target="_blank" rel="noopener">
   DOI
 </a>
 
@@ -3182,10 +3332,12 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
     
 
   <span >
-      <a href="/author/admin/">admin</a></span>
+      <a href="/author/christopher-w.-doble/">Christopher W. Doble</a></span>, <span class="author-highlighted">
+      <a href="/author/yung-fong-hsu/">Yung-Fong Hsu</a></span>
   </span>
-  (2019).
-  <a href="/publication/preprint/">An example preprint / working paper</a>.
+  (2020).
+  <a href="/publication/doble-2020/">On the functional forms in a psychophysical law of similarity under a subtractive representation</a>.
+  <em>Journal of Mathematical Psychology</em>.
   
   <p>
 
@@ -3202,88 +3354,33 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
 
 
 
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="http://arxiv.org/pdf/1512.04133v1" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.sciencedirect.com/science/article/pii/S0022249620300729" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">
-  Code
-</a>
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="/#" target="_blank" rel="noopener">
-  Dataset
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/doble-2020/cite.bib">
+  Cite
 </a>
 
 
 
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/internal-project/">
-    Project
-  </a>
-  
 
 
 
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="/#" target="_blank" rel="noopener">
-  Poster
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1016/j.jmp.2020.102421" target="_blank" rel="noopener">
+  DOI
 </a>
 
-
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/slides/example/" target="_blank">
-    Slides
-  </a>
-  
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="/#" target="_blank" rel="noopener">
-  Video
-</a>
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="/#" target="_blank" rel="noopener">
-  Source Document
-</a>
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="http://example.org" target="_blank" rel="noopener">
-    Custom Link</a>
 
 </p>
 
@@ -3306,12 +3403,12 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
     
 
   <span >
-      <a href="/author/admin/">admin</a></span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
-      <a href="/author/robert-ford/">Robert Ford</a></span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>
+      <a href="/author/michel-regenwetter/">Michel Regenwetter</a></span>, <span class="author-highlighted">
+      <a href="/author/yung-fong-hsu/">Yung-Fong Hsu</a></span>
   </span>
-  (2015).
-  <a href="/publication/journal-article/">An example journal article</a>.
-  <em>Journal of Source Themes, 1</em>(1).
+  (2019).
+  <a href="/publication/regenwetter-2019-a/">Stochastic process models of preference change</a>.
+  <em>The Oxford Handbook of Public Choice</em>.
   
   <p>
 
@@ -3323,45 +3420,31 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
 
 
   
-    
-  
 
 
-
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="http://arxiv.org/pdf/1512.04133v1" target="_blank" rel="noopener">
-  PDF
-</a>
 
 
 
 <a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-        data-filename="/publication/journal-article/cite.bib">
+        data-filename="/publication/regenwetter-2019-a/cite.bib">
   Cite
 </a>
 
 
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">
-  Code
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1093/oxfordhb/9780190469733.013.34" target="_blank" rel="noopener">
+  DOI
 </a>
-
-
-
-
-
-
-
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/slides/example/" target="_blank">
-    Slides
-  </a>
-  
-
-
-
 
 
 </p>
@@ -3375,6 +3458,21 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
 
   
   
+  
+
+    
+    
+      
+    
+
+    
+
+    <div class="see-all">
+      <a href="/publication/">
+        See all publications
+        <i class="fas fa-angle-right"></i>
+      </a>
+    </div>
   
 
 </div>
@@ -3544,17 +3642,31 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
   
 
   
+
+  
+  
+  
+  
+
+  
     
     
+    
+    
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
   
 
   
-  
-  
-  
-
-  
-
+    
   
 
   
@@ -3590,7 +3702,7 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
 
   
   <section id="join-us" class="home-section wg-hero dark "  >
-   <div class="home-section-bg " style="background-image: linear-gradient(90deg, #004ba0, #1976d2);">
+   <div class="home-section-bg  bg-image parallax" style="background-image: url(&#39;https://hsulab.psy.ntu.edu.tw/media/join-us_bg1_hu3d03a01dcc18bc5be0e67db3d8d209a6_3399393_1920x1920_fit_q75_h2_lanczos.webp&#39;);background-size: cover;background-position: center;filter: brightness(0.6);">
      
    </div>
     <div class="container">
@@ -3781,7 +3893,7 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
     
 
     <div class="mb-3">
-      <form name="contact" method="POST" action="https://formspree.io/f/test"   >
+      <form name="contact" method="POST" action="https://formspree.io/f/xbjwprdb"  data-netlify-recaptcha="true" >
         <div class="form-group form-inline">
           <label class="sr-only" for="inputName">Name</label>
           <input type="text" name="name" class="form-control w-100" id="inputName" placeholder="Name" required>
@@ -3814,6 +3926,11 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
     
 
     
+    <li>
+      <i class="fa-li fas fa-phone fa-2x" aria-hidden="true"></i>
+      <span id="person-telephone"><a href="tel:886-2-33663114">886-2-33663114</a></span>
+    </li>
+    
 
     
     
@@ -3827,14 +3944,14 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
     
     <li>
       <i class="fa-li fas fa-compass fa-2x" aria-hidden="true"></i>
-      <span>Room 404/322, Department of Psychology South Hall, National Taiwan University</span>
+      <span>Room 404, Department of Psychology South Hall, National Taiwan University</span>
     </li>
     
 
     
     <li>
       <i class="fa-li fas fa-clock fa-2x" aria-hidden="true"></i>
-      <span>Monday 10:00 to 13:00<br>Wednesday 09:00 to 10:00</span>
+      <span>Email to book an appointment</span>
     </li>
     
 

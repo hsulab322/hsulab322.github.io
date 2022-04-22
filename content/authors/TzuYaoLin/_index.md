@@ -1,9 +1,11 @@
 ---
-title: Tzu-Yao Lin (林子堯)
+title: Tzu-Yao Lin
 
 superuser: false
 
 user_groups: ["Graduate Students"]
+
+weight: 33
 
 role: MSc Student, Psychology
 
@@ -11,11 +13,12 @@ organizations:
 - name: National Taiwan University
   url: https://psy.ntu.edu.tw/
 
-bio: "My research interests include ...."
+# bio: "My research interests include ...."
 
 interests:
 - Bayesian Statistics
 - Cultural Consensus Theory
+- Multinomial Processing Tree Model
 
 social:
 - icon: envelope

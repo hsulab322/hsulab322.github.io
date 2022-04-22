@@ -1,9 +1,11 @@
 ---
-title: Hau-Hung Yang (楊昊紘)
+title: Hau-Hung Yang
 
 superuser: false
 
 user_groups: ["Graduate Students"]
+
+weight: 34
 
 role: MSc student, Psychology
 
@@ -11,7 +13,7 @@ organizations:
 - name: National Taiwan University
   url: https://psy.ntu.edu.tw/
 
-bio: "My research interests include ...."
+# bio: "My research interests include ...."
 
 interests:
 - "Drift Diffusion Model"

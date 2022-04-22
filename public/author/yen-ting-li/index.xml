@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yen-Ting Li | Cognitive Psychometrics Lab</title>
+    <link>https://hsulab.psy.ntu.edu.tw/author/yen-ting-li/</link>
+      <atom:link href="https://hsulab.psy.ntu.edu.tw/author/yen-ting-li/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yen-Ting Li</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © {2021} Cognitive Psychometrics Lab</copyright>
+    <image>
+      <url>https://hsulab.psy.ntu.edu.tw/author/yen-ting-li/avatar_hu648aed0ec608e3390ba3d2851eb0fd81_400679_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Yen-Ting Li</title>
+      <link>https://hsulab.psy.ntu.edu.tw/author/yen-ting-li/</link>
+    </image>
+    
+  </channel>
+</rss>

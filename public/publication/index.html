@@ -53,14 +53,14 @@
   
   
 
-  <meta name="author" content="Yung-Fong Hsu (徐永豐)" />
+  <meta name="author" content="Yung-Fong Hsu" />
 
   
   
   
     
   
-  <meta name="description" content="Professor of Psychology" />
+  <meta name="description" content="Yung-Fong Hsu&#39;s Lab, Department of Psychology, National Taiwan University" />
 
   
   <link rel="alternate" hreflang="en-us" href="https://hsulab.psy.ntu.edu.tw/publication/" />
@@ -259,6 +259,45 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RM0X76GFY8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-RM0X76GFY8', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
   
@@ -308,11 +347,11 @@
   <meta property="og:site_name" content="Cognitive Psychometrics Lab" />
   <meta property="og:url" content="https://hsulab.psy.ntu.edu.tw/publication/" />
   <meta property="og:title" content="Publications | Cognitive Psychometrics Lab" />
-  <meta property="og:description" content="Professor of Psychology" /><meta property="og:image" content="https://hsulab.psy.ntu.edu.tw/media/logo_hu39dac0accd2519207393463f587ca00e_161255_300x300_fit_lanczos_3.png" />
+  <meta property="og:description" content="Yung-Fong Hsu&#39;s Lab, Department of Psychology, National Taiwan University" /><meta property="og:image" content="https://hsulab.psy.ntu.edu.tw/media/logo_hu39dac0accd2519207393463f587ca00e_161255_300x300_fit_lanczos_3.png" />
     <meta property="twitter:image" content="https://hsulab.psy.ntu.edu.tw/media/logo_hu39dac0accd2519207393463f587ca00e_161255_300x300_fit_lanczos_3.png" /><meta property="og:locale" content="en-us" />
   
     
-      <meta property="og:updated_time" content="2021-10-25T00:00:00&#43;00:00" />
+      <meta property="og:updated_time" content="2022-04-20T13:25:42&#43;00:00" />
     
   
 
@@ -616,43 +655,6 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#talks"><span>Talks</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-
-        
-        
-        
-        
-
-        
-          
-            
-            
-          
-          
-            
-            
-            
-              
-            
-            
-          
-        
-
-        <li class="nav-item">
           <a class="nav-link " href="/#publications"><span>Publications</span></a>
         </li>
 
@@ -680,10 +682,17 @@
             
           
           
+            
+            
+            
+              
+            
+            
+          
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/courses/"><span>Courses</span></a>
+          <a class="nav-link " href="/#gallery"><span>Gallery</span></a>
         </li>
 
         
@@ -720,7 +729,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#join"><span>Join Us!</span></a>
+          <a class="nav-link " href="/#join-us"><span>Join Us!</span></a>
         </li>
 
         
@@ -868,6 +877,93 @@
         
         
       
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
 
       <div class="form-row mb-4">
         <div class="col-auto">
@@ -891,6 +987,14 @@
               Preprint
             </option>
             
+            <option value=".pubtype-6">
+              Book section
+            </option>
+            
+            <option value=".pubtype-7">
+              Thesis
+            </option>
+            
           </select>
         </div>
         <div class="col-auto">
@@ -899,20 +1003,72 @@
             
             
             
+            <option value=".year-2022">
+              2022
+            </option>
+            
             <option value=".year-2021">
               2021
+            </option>
+            
+            <option value=".year-2020">
+              2020
             </option>
             
             <option value=".year-2019">
               2019
             </option>
             
+            <option value=".year-2018">
+              2018
+            </option>
+            
+            <option value=".year-2017">
+              2017
+            </option>
+            
+            <option value=".year-2016">
+              2016
+            </option>
+            
             <option value=".year-2015">
               2015
             </option>
             
+            <option value=".year-2014">
+              2014
+            </option>
+            
             <option value=".year-2013">
               2013
+            </option>
+            
+            <option value=".year-2012">
+              2012
+            </option>
+            
+            <option value=".year-2011">
+              2011
+            </option>
+            
+            <option value=".year-2010">
+              2010
+            </option>
+            
+            <option value=".year-2009">
+              2009
+            </option>
+            
+            <option value=".year-2008">
+              2008
+            </option>
+            
+            <option value=".year-2007">
+              2007
+            </option>
+            
+            <option value=".year-2005">
+              2005
             </option>
             
             
@@ -927,6 +1083,153 @@
           
         
 
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-3 year-2022">
+          
+            
+
+<div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span class="author-highlighted">
+      <a href="/author/che-cheng/">Che Cheng</a></span>, <span class="author-highlighted">
+      <a href="/author/yan-jun-huang/">Yan-Jun Huang</a></span>, <span class="author-highlighted">
+      <a href="/author/yung-fong-hsu/">Yung-Fong Hsu</a></span>
+  </span>
+  (2022).
+  <a href="/publication/cheng/">Incorporating response confidence into adaptive methods for threshold estimation</a>.
+  <em>Chinese Journal of Psychology</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/cheng/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-7 year-2021">
+          
+            
+
+<div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span class="author-highlighted">
+      <a href="/author/qi-wen-ding/">Qi-Wen Ding</a></span>
+  </span>
+  (2021).
+  <a href="/publication/ding-2021/">Revisiting the index of entropy-based emodiversity</a>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://hdl.handle.net/11296/d5u73z" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/ding-2021/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.6342/NTU202100208" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
         <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2021">
           
             
@@ -940,15 +1243,15 @@
   <span class="article-metadata li-cite-author">
     
 
-  <span >
+  <span class="author-highlighted">
       <a href="/author/che-cheng/">Che Cheng</a></span>, <span >
-      <a href="/author/keng-ling-lay/">Keng-Ling Lay</a></span>, <span >
+      <a href="/author/keng-ling-lay/">Keng-Ling Lay</a></span>, <span class="author-highlighted">
       <a href="/author/yung-fong-hsu/">Yung-Fong Hsu</a></span>, <span >
       <a href="/author/yi-miau-tsai/">Yi-Miau Tsai</a></span>
   </span>
   (2021).
-  <a href="/publication/cheng_etal_2021/">Can Likert scales predict choices? Testing the congruence between using Likert scale and comparative judgment on measuring attribution</a>.
-  <em>Methods in Psychology, 5</em>.
+  <a href="/publication/cheng-2021/">Can Likert scales predict choices? Testing the congruence between using Likert scale and comparative judgment on measuring attribution</a>.
+  <em>Methods in Psychology</em>.
   
   <p>
 
@@ -965,25 +1268,18 @@
 
 
 
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="http://arxiv.org/pdf/1512.04133v1" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.sciencedirect.com/science/article/pii/S2590260121000382" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
 <a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-        data-filename="/publication/cheng_etal_2021/cite.bib">
+        data-filename="/publication/cheng-2021/cite.bib">
   Cite
 </a>
 
 
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">
-  Code
-</a>
 
 
 
@@ -991,16 +1287,11 @@
 
 
 
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/slides/example/" target="_blank">
-    Slides
-  </a>
-  
 
 
 
 
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/https://doi.org/10.1016/j.metip.2021.100081" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1016/j.metip.2021.100081" target="_blank" rel="noopener">
   DOI
 </a>
 
@@ -1020,7 +1311,7 @@
           
         
 
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2021">
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2020">
           
             
 
@@ -1034,12 +1325,12 @@
     
 
   <span >
-      <a href="/author/christopher-w.doble/">Christopher W.Doble</a></span>, <span >
+      <a href="/author/christopher-w.-doble/">Christopher W. Doble</a></span>, <span class="author-highlighted">
       <a href="/author/yung-fong-hsu/">Yung-Fong Hsu</a></span>
   </span>
-  (2021).
-  <a href="/publication/doble_hsu_2020/">On the functional forms in a psychophysical law of similarity under a subtractive representation</a>.
-  <em>Journal of Mathematical Psychology, 98</em>.
+  (2020).
+  <a href="/publication/doble-2020/">On the functional forms in a psychophysical law of similarity under a subtractive representation</a>.
+  <em>Journal of Mathematical Psychology</em>.
   
   <p>
 
@@ -1051,13 +1342,19 @@
 
 
   
+    
+  
 
 
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.sciencedirect.com/science/article/pii/S0022249620300729" target="_blank" rel="noopener">
+  PDF
+</a>
 
 
 
 <a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-        data-filename="/publication/doble_hsu_2020/cite.bib">
+        data-filename="/publication/doble-2020/cite.bib">
   Cite
 </a>
 
@@ -1068,16 +1365,12 @@
 
 
 
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/slides/example/" target="_blank">
-    Slides
-  </a>
-  
 
 
 
 
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/https://doi.org/10.1016/j.jmp.2020.102421" target="_blank" rel="noopener">
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1016/j.jmp.2020.102421" target="_blank" rel="noopener">
   DOI
 </a>
 
@@ -1097,7 +1390,7 @@
           
         
 
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-3 year-2019">
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-6 year-2019">
           
             
 
@@ -1111,10 +1404,157 @@
     
 
   <span >
-      <a href="/author/admin/">admin</a></span>
+      <a href="/author/michel-regenwetter/">Michel Regenwetter</a></span>, <span class="author-highlighted">
+      <a href="/author/yung-fong-hsu/">Yung-Fong Hsu</a></span>
   </span>
   (2019).
-  <a href="/publication/preprint/">An example preprint / working paper</a>.
+  <a href="/publication/regenwetter-2019-a/">Stochastic process models of preference change</a>.
+  <em>The Oxford Handbook of Public Choice</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/regenwetter-2019-a/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1093/oxfordhb/9780190469733.013.34" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2019">
+          
+            
+
+<div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span >
+      <a href="/author/michel-regenwetter/">Michel Regenwetter</a></span>, <span class="author-highlighted">
+      <a href="/author/yung-fong-hsu/">Yung-Fong Hsu</a></span>, <span >
+      <a href="/author/james-h.-kuklinski/">James H. Kuklinski</a></span>
+  </span>
+  (2019).
+  <a href="/publication/regenwetter-2019/">Towards meaningful inferences from attitudinal thermometer ratings</a>.
+  <em>Decision</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/regenwetter-2019/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1037/dec0000106" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-7 year-2019">
+          
+            
+
+<div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span class="author-highlighted">
+      <a href="/author/yan-jun-huang/">Yan-Jun Huang</a></span>
+  </span>
+  (2019).
+  <a href="/publication/huang-2019/">The influence of combination of response confidence scale with adaptive methods in threshold estimation experiments</a>.
   
   <p>
 
@@ -1131,88 +1571,492 @@
 
 
 
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="http://arxiv.org/pdf/1512.04133v1" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://hdl.handle.net/11296/79va58" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">
-  Code
-</a>
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="/#" target="_blank" rel="noopener">
-  Dataset
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/huang-2019/cite.bib">
+  Cite
 </a>
 
 
 
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/internal-project/">
-    Project
-  </a>
-  
 
 
 
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="/#" target="_blank" rel="noopener">
-  Poster
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.6342/NTU201904185" target="_blank" rel="noopener">
+  DOI
 </a>
 
 
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/slides/example/" target="_blank">
-    Slides
-  </a>
-  
-
+</p>
 
   
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2019">
+          
+            
+
+<div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span >
+      <a href="/author/yen-sheng-chiang/">Yen-Sheng Chiang</a></span>, <span class="author-highlighted">
+      <a href="/author/yung-fong-hsu/">Yung-Fong Hsu</a></span>
+  </span>
+  (2019).
+  <a href="/publication/chiang-2019/">The asymmetry of altruistic giving when givers outnumber recipients and vice versa: A dictator game experiment and a behavioral economics model</a>.
+  <em>Journal of Economic Psychology</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
   
     
   
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="/#" target="_blank" rel="noopener">
-  Video
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.sciencedirect.com/science/article/pii/S016748701830374X" target="_blank" rel="noopener">
+  PDF
 </a>
 
 
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="/#" target="_blank" rel="noopener">
-  Source Document
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/chiang-2019/cite.bib">
+  Cite
 </a>
 
 
 
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1016/j.joep.2019.06.001" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
   
   
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-7 year-2018">
+          
+            
+
+<div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span class="author-highlighted">
+      <a href="/author/hong-hsiang-liu/">Hong-Hsiang Liu</a></span>
+  </span>
+  (2018).
+  <a href="/publication/liu-2018/">Affective influences on reward-based decision making</a>.
+  
+  <p>
+
+
+
+
+
+
+
+
   
     
   
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://hdl.handle.net/11296/vtyq7y" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/liu-2018/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
   
   
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2017">
+          
+            
+
+<div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
   
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span class="author-highlighted">
+      <a href="/author/hong-hsiang-liu/">Hong-Hsiang Liu</a></span>, <span class="author-highlighted">
+      <a href="/author/yin-dir-hwang/">Yin-Dir Hwang</a></span>, <span >
+      <a href="/author/ming-h.-hsieh/">Ming H. Hsieh</a></span>, <span class="author-highlighted">
+      <a href="/author/yung-fong-hsu/">Yung-Fong Hsu</a></span>, <span >
+      <a href="/author/wen-sung-lai/">Wen-Sung Lai</a></span>
+  </span>
+  (2017).
+  <a href="/publication/liu-2017/">Misfortune may be a blessing in disguise: Fairness perception and emotion modulate decision making</a>.
+  <em>Psychophysiology</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
   
     
   
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="http://example.org" target="_blank" rel="noopener">
-    Custom Link</a>
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://onlinelibrary.wiley.com/doi/abs/10.1111/psyp.12870" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/liu-2017/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1111/psyp.12870" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2017">
+          
+            
+
+<div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span >
+      <a href="/author/yen-sheng-chiang/">Yen-Sheng Chiang</a></span>, <span class="author-highlighted">
+      <a href="/author/yung-fong-hsu/">Yung-Fong Hsu</a></span>
+  </span>
+  (2017).
+  <a href="/publication/chiang-2017/">Direct election of group decision-makers can facilitate cooperation in the public goods game</a>.
+  <em>Group Decision and Negotiation</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/chiang-2017/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1007/s10726-016-9478-6" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-7 year-2016">
+          
+            
+
+<div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span class="author-highlighted">
+      <a href="/author/yin-dir-hwang/">Yin-Dir Hwang</a></span>
+  </span>
+  (2016).
+  <a href="/publication/hwang-2016/">Misfortune might be a blessing in disguise: Novel evidence from model fitting and feedback-related negativity indicates the impact of fairness perception and negative emotional experience in the enhancement of decision-making performance</a>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://hdl.handle.net/11296/8tmvx4" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/hwang-2016/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2016">
+          
+            
+
+<div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span class="author-highlighted">
+      <a href="/author/yung-fong-hsu/">Yung-Fong Hsu</a></span>, <span >
+      <a href="/author/geoffrey-j.-iverson/">Geoffrey J. Iverson</a></span>
+  </span>
+  (2016).
+  <a href="/publication/hsu-2016/">Conditions under which affine representations are also Fechnerian under the power law of similarity on the Weber sensitivities</a>.
+  <em>Journal of Mathematical Psychology</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.sciencedirect.com/science/article/pii/S0022249616300190" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/hsu-2016/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1016/j.jmp.2016.04.009" target="_blank" rel="noopener">
+  DOI
+</a>
+
 
 </p>
 
@@ -1242,13 +2086,15 @@
   <span class="article-metadata li-cite-author">
     
 
-  <span >
-      <a href="/author/admin/">admin</a></span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
-      <a href="/author/robert-ford/">Robert Ford</a></span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>
+  <span class="author-highlighted">
+      <a href="/author/hong-hsiang-liu/">Hong-Hsiang Liu</a></span>, <span >
+      <a href="/author/ming-h.-hsieh/">Ming H. Hsieh</a></span>, <span class="author-highlighted">
+      <a href="/author/yung-fong-hsu/">Yung-Fong Hsu</a></span>, <span >
+      <a href="/author/wen-sung-lai/">Wen-Sung Lai</a></span>
   </span>
   (2015).
-  <a href="/publication/journal-article/">An example journal article</a>.
-  <em>Journal of Source Themes, 1</em>(1).
+  <a href="/publication/liu-2015/">Effects of affective arousal on choice behavior, reward prediction errors, and feedback-related negativities in human reward-based decision making</a>.
+  <em>Frontiers in Psychology</em>.
   
   <p>
 
@@ -1265,24 +2111,94 @@
 
 
 
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="http://arxiv.org/pdf/1512.04133v1" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.frontiersin.org/article/10.3389/fpsyg.2015.00592" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
 <a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-        data-filename="/publication/journal-article/cite.bib">
+        data-filename="/publication/liu-2015/cite.bib">
   Cite
 </a>
 
 
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.3389/fpsyg.2015.00592" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
   
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2015">
+          
+            
+
+<div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span class="author-highlighted">
+      <a href="/author/yung-fong-hsu/">Yung-Fong Hsu</a></span>, <span >
+      <a href="/author/christopher-w.-doble/">Christopher W. Doble</a></span>
+  </span>
+  (2015).
+  <a href="/publication/hsu-2015/">A threshold theory account of psychometric functions with response confidence under the balance condition</a>.
+  <em>British Journal of Mathematical and Statistical Psychology</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
   
     
   
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">
-  Code
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://bpspsychub.onlinelibrary.wiley.com/doi/abs/10.1111/bmsp.12040" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/hsu-2015/cite.bib">
+  Cite
 </a>
 
 
@@ -1291,11 +2207,392 @@
 
 
 
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1111/bmsp.12040" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
   
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/slides/example/" target="_blank">
-    Slides
-  </a>
   
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2014">
+          
+            
+
+<div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span >
+      <a href="/author/chia-tzu-li/">Chia-Tzu Li</a></span>, <span >
+      <a href="/author/wen-sung-lai/">Wen-Sung Lai</a></span>, <span >
+      <a href="/author/yung-fong-hsu/">Yung-Fong Hsu</a></span>
+  </span>
+  (2014).
+  <a href="/publication/li-2014-a/">Using a reinforcement learning model and Bayes factors to study gender differences and personality correlations in reward prediction errors</a>.
+  <em>Chinese Journal of Psychology</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/li-2014-a/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.6129/CJP.20140411" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2014">
+          
+            
+
+<div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span class="author-highlighted">
+      <a href="/author/yung-fong-hsu/">Yung-Fong Hsu</a></span>, <span class="author-highlighted">
+      <a href="/author/ching-lan-chin/">Ching-Lan Chin</a></span>
+  </span>
+  (2014).
+  <a href="/publication/hsu-2014/">On the limitations of fixed-step-size adaptive methods with response confidence</a>.
+  <em>British Journal of Mathematical and Statistical Psychology</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://bpspsychub.onlinelibrary.wiley.com/doi/abs/10.1111/bmsp.12018" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/hsu-2014/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1111/bmsp.12018" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2014">
+          
+            
+
+<div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span class="author-highlighted">
+      <a href="/author/chia-tzu-li/">Chia-Tzu Li</a></span>, <span >
+      <a href="/author/wen-sung-lai/">Wen-Sung Lai</a></span>, <span >
+      <a href="/author/chih-min-liu/">Chih-Min Liu</a></span>, <span class="author-highlighted">
+      <a href="/author/yung-fong-hsu/">Yung-Fong Hsu</a></span>
+  </span>
+  (2014).
+  <a href="/publication/li-2014/">Inferring reward prediction errors in patients with schizophrenia: A dynamic reward task for reinforcement learning</a>.
+  <em>Frontiers in Psychology</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.frontiersin.org/article/10.3389/fpsyg.2014.01282" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/li-2014/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.3389/fpsyg.2014.01282" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2013">
+          
+            
+
+<div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span class="author-highlighted">
+      <a href="/author/yung-fong-hsu/">Yung-Fong Hsu</a></span>, <span class="author-highlighted">
+      <a href="/author/ling-ming-tseng/">Ling-Ming Tseng</a></span>
+  </span>
+  (2013).
+  <a href="/publication/hsu-2013/">Assessing memory deficits using latent class (hierarchical) multinomial processing tree modeling: An illustration using data from clinical groups in Taiwan</a>.
+  <em>Chinese Journal of Psychology</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/hsu-2013/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.6129/CJP.20120711" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-7 year-2012">
+          
+            
+
+<div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span class="author-highlighted">
+      <a href="/author/chia-tzu-li/">Chia-Tzu Li</a></span>
+  </span>
+  (2012).
+  <a href="/publication/li-2012/">Reward prediction errors in reinforcement learning: Psychosis, personality, and modeling issues</a>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://hdl.handle.net/11296/4mu57k" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/li-2012/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1316,7 +2613,7 @@
           
         
 
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2013">
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-7 year-2012">
           
             
 
@@ -1329,13 +2626,11 @@
   <span class="article-metadata li-cite-author">
     
 
-  <span >
-      <a href="/author/admin/">admin</a></span>, <span >
-      <a href="/author/robert-ford/">Robert Ford</a></span>
+  <span class="author-highlighted">
+      <a href="/author/yu-chia-chang/">Yu-Chia Chang</a></span>
   </span>
-  (2013).
-  <a href="/publication/conference-paper/">An example conference paper</a>.
-  In <em>STC</em>.
+  (2012).
+  <a href="/publication/chang-2012/">Impact of different kinds of attention on perceptual-based sequence learning</a>.
   
   <p>
 
@@ -1352,93 +2647,1029 @@
 
 
 
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://hdl.handle.net/11296/x5x5vd" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
 <a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
-        data-filename="/publication/conference-paper/cite.bib">
+        data-filename="/publication/chang-2012/cite.bib">
   Cite
 </a>
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
   
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-7 year-2012">
+          
+            
+
+<div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span class="author-highlighted">
+      <a href="/author/ching-lan-chin/">Ching-Lan Chin</a></span>
+  </span>
+  (2012).
+  <a href="/publication/chin-2012/">An application of confidence rating for a non-parametric adaptive procedure: A weighted up-down procedure with visual analogue scale</a>.
+  
+  <p>
+
+
+
+
+
+
+
+
   
     
   
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">
-  Code
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://hdl.handle.net/11296/g5eggu" target="_blank" rel="noopener">
+  PDF
 </a>
 
 
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="/#" target="_blank" rel="noopener">
-  Dataset
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/chin-2012/cite.bib">
+  Cite
 </a>
 
 
 
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/internal-project/">
-    Project
-  </a>
-  
 
 
 
+
+
+
+
+
+
+
+
+</p>
+
   
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2012">
+          
+            
+
+<div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span >
+      <a href="/author/y.-c.-chen/">Y.-C. Chen</a></span>, <span >
+      <a href="/author/y.-w.-chen/">Y.-W. Chen</a></span>, <span class="author-highlighted">
+      <a href="/author/yung-fong-hsu/">Yung-Fong Hsu</a></span>, <span >
+      <a href="/author/w.-t.-chang/">W.-T. Chang</a></span>, <span >
+      <a href="/author/c.-k.-hsiao/">C. K. Hsiao</a></span>, <span >
+      <a href="/author/m.-y.-min/">M.-Y. Min</a></span>, <span >
+      <a href="/author/w.-s.-lai/">W.-S. Lai</a></span>
+  </span>
+  (2012).
+  <a href="/publication/chen-2012/">Akt1 deficiency modulates reward learning and reward prediction error in mice</a>.
+  <em>Genes, Brain and Behavior</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
   
     
   
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="/#" target="_blank" rel="noopener">
-  Poster
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1601-183X.2011.00759.x" target="_blank" rel="noopener">
+  PDF
 </a>
 
 
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/slides/example/" target="_blank">
-    Slides
-  </a>
-  
 
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="/#" target="_blank" rel="noopener">
-  Video
-</a>
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="/#" target="_blank" rel="noopener">
-  Source Document
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/chen-2012/cite.bib">
+  Cite
 </a>
 
 
 
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1111/j.1601-183x.2011.00759.x" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
   
   
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2011">
+          
+            
+
+<div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span >
+      <a href="/author/cheng-ta-yang/">Cheng-Ta Yang</a></span>, <span class="author-highlighted">
+      <a href="/author/yung-fong-hsu/">Yung-Fong Hsu</a></span>, <span >
+      <a href="/author/hsin-yi-huang/">Hsin-Yi Huang</a></span>, <span >
+      <a href="/author/yei-yu-yeh/">Yei-Yu Yeh</a></span>
+  </span>
+  (2011).
+  <a href="/publication/yang-2011/">Relative salience affects the process of detecting changes in orientation and luminance</a>.
+  <em>Acta Psychologica</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
   
     
   
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.sciencedirect.com/science/article/pii/S0001691811001624" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/yang-2011/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1016/j.actpsy.2011.09.003" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
   
   
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-7 year-2011">
+          
+            
+
+<div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
   
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span class="author-highlighted">
+      <a href="/author/ling-ming-tseng/">Ling-Ming Tseng</a></span>
+  </span>
+  (2011).
+  <a href="/publication/tseng-2011/">Recasting the feeling of knowing – a meta-analysis study using probability models</a>.
+  
+  <p>
+
+
+
+
+
+
+
+
   
     
   
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="http://example.org" target="_blank" rel="noopener">
-    Custom Link</a>
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://hdl.handle.net/11296/bt25u2" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/tseng-2011/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2010">
+          
+            
+
+<div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span class="author-highlighted">
+      <a href="/author/yen-ho-chen/">Yen-Ho Chen</a></span>, <span class="author-highlighted">
+      <a href="/author/yung-fong-hsu/">Yung-Fong Hsu</a></span>
+  </span>
+  (2010).
+  <a href="/publication/chen-2010/">Convergence of non-parametric adaptive threshold estimation in the yes-no task</a>.
+  <em>Chinese Journal of Psychology</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/chen-2010/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.6129/CJP.2010.5201.06" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2010">
+          
+            
+
+<div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span class="author-highlighted">
+      <a href="/author/yung-fong-hsu/">Yung-Fong Hsu</a></span>, <span >
+      <a href="/author/geoffrey-j.-iverson/">Geoffrey J. Iverson</a></span>, <span >
+      <a href="/author/christopher-w.-doble/">Christopher W. Doble</a></span>
+  </span>
+  (2010).
+  <a href="/publication/hsu-2010/">Affine representations in psychophysics and the near-miss to Weber’s law</a>.
+  <em>Journal of Mathematical Psychology</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.sciencedirect.com/science/article/pii/S0022249610000040" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/hsu-2010/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1016/j.jmp.2010.01.003" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-7 year-2009">
+          
+            
+
+<div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span class="author-highlighted">
+      <a href="/author/yen-ho-chen/">Yen-Ho Chen</a></span>
+  </span>
+  (2009).
+  <a href="/publication/chen-2009/">Applying non-parametric adaptive methods to psychophysical and simple reaction time studies</a>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://hdl.handle.net/11296/ftd55w" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/chen-2009/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2009">
+          
+            
+
+<div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span class="author-highlighted">
+      <a href="/author/yung-fong-hsu/">Yung-Fong Hsu</a></span>, <span class="author-highlighted">
+      <a href="/author/yen-ho-chen/">Yen-Ho Chen</a></span>
+  </span>
+  (2009).
+  <a href="/publication/hsu-2009/">Applications of nonparametric adaptive methods for simple reaction time experiments</a>.
+  <em>Attention, Perception, &amp; Psychophysics</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/hsu-2009/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.3758/APP.71.7.1664" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2008">
+          
+            
+
+<div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span >
+      <a href="/author/jean-claude-falmagne/">Jean-Claude Falmagne</a></span>, <span class="author-highlighted">
+      <a href="/author/yung-fong-hsu/">Yung-Fong Hsu</a></span>, <span >
+      <a href="/author/fabio-leite/">Fabio Leite</a></span>, <span >
+      <a href="/author/michel-regenwetter/">Michel Regenwetter</a></span>
+  </span>
+  (2008).
+  <a href="/publication/falmagne-2008/">Stochastic applications of media theory: Random walks on weak orders or partial orders</a>.
+  <em>Discrete Applied Mathematics</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.sciencedirect.com/science/article/pii/S0166218X07001606" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/falmagne-2008/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1016/j.dam.2007.04.032" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2007">
+          
+            
+
+<div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span class="author-highlighted">
+      <a href="/author/yung-fong-hsu/">Yung-Fong Hsu</a></span>, <span >
+      <a href="/author/michel-regenwetter/">Michel Regenwetter</a></span>
+  </span>
+  (2007).
+  <a href="/publication/hsu-2007/">Applications of stochastic media theory to 1992, 1996, and 2000 national election study panel data</a>.
+  <em>Chinese Journal of Psychology</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/hsu-2007/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.6129/CJP.2007.4903.01" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2005">
+          
+            
+
+<div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span class="author-highlighted">
+      <a href="/author/yung-fong-hsu/">Yung-Fong Hsu</a></span>, <span >
+      <a href="/author/michel-regenwetter/">Michel Regenwetter</a></span>, <span >
+      <a href="/author/jean-claude-falmagne/">Jean-Claude Falmagne</a></span>
+  </span>
+  (2005).
+  <a href="/publication/hsu-2005-a/">The tune in-and-out model: A random walk and its application to a presidential election survey</a>.
+  <em>Journal of Mathematical Psychology</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.sciencedirect.com/science/article/pii/S0022249605000416" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/hsu-2005-a/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1016/j.jmp.2005.04.002" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2005">
+          
+            
+
+<div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span class="author-highlighted">
+      <a href="/author/yung-fong-hsu/">Yung-Fong Hsu</a></span>
+  </span>
+  (2005).
+  <a href="/publication/hsu-2005/">On measuring the minimum detection time: A simple reaction time study in the time estimation paradigm</a>.
+  <em>British Journal of Mathematical and Statistical Psychology</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://bpspsychub.onlinelibrary.wiley.com/doi/abs/10.1348/000711005X62774" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/hsu-2005/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1348/000711005X62774" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2005">
+          
+            
+
+<div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span class="author-highlighted">
+      <a href="/author/yung-fong-hsu/">Yung-Fong Hsu</a></span>
+  </span>
+  (2005).
+  <a href="/publication/hsu-2005-b/">A generalization of Piéron&#39;s law to include background intensity and latency distribution</a>.
+  <em>Journal of Mathematical Psychology</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.sciencedirect.com/science/article/pii/S0022249605000088" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/hsu-2005-b/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1016/j.jmp.2005.02.001" target="_blank" rel="noopener">
+  DOI
+</a>
+
 
 </p>
 

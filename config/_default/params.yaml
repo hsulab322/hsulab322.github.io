@@ -12,16 +12,16 @@ font_size: L
 
 # SEO
 
-site_type: Person
+site_type: EducationalOrganization
 local_business_type: ''
-org_name: ''
-description: ''
+org_name: 'Cognitive Psychometrics Lab'
+description: "Yung-Fong Hsu's Lab, Department of Psychology, National Taiwan University"
 twitter: ''
 
 # Contact (edit or remove options as required)
-
+#see also content/home/contact.md
 email: yfhsu@ntu.edu.tw 
-# phone: 888 888 88 88
+phone: 886-2-33663114
 address:
   street: No. 1, Sec. 4, Roosevelt Rd.
   city: Taipei
@@ -32,10 +32,8 @@ address:
 coordinates:
   latitude: '25.0195245'
   longitude: '121.5401124'
-directions: Room 404/322, Department of Psychology South Hall, National Taiwan University
-office_hours:
-  - 'Monday 10:00 to 13:00'
-  - 'Wednesday 09:00 to 10:00'
+directions: Room 404, Department of Psychology South Hall, National Taiwan University
+office_hours: Email to book an appointment
 # appointment_url: 'https://calendly.com'
 # contact_links:
 #   - icon: twitter
@@ -54,6 +52,7 @@ office_hours:
 #     icon_pack: fas
 #     name: Discuss on Forum
 #     link: 'https://discourse.gohugo.io'
+
 
 # Site header
 
@@ -147,7 +146,7 @@ map:
   api_key: ''
   zoom: 17
 marketing:
-  google_analytics: ''
+  google_analytics: 'G-RM0X76GFY8'
   google_tag_manager: ''
   google_site_verification: ''
   baidu_site_verification: ''
