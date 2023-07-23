@@ -3,15 +3,17 @@ title: Tzu-Yao Lin
 
 superuser: false
 
-user_groups: ["Graduate Students"]
+user_groups: ["Alumni"]
 
 weight: 33
 
-role: MSc Student, Psychology
+role: PhD Candidate, Psychology & Statistics
 
 organizations:
-- name: National Taiwan University
-  url: https://psy.ntu.edu.tw/
+- name: Maastricht University
+  url: https://www.maastrichtuniversity.nl/t-lin
+- name: KU Leuven
+  url: https://ppw.kuleuven.be/okp/team/
 
 # bio: "My research interests include ...."
 
@@ -22,6 +24,9 @@ interests:
 
 education:
   courses:
+  - course: MSc in Psychology
+    institution: National Taiwan University
+    year: 2022
   - course: BSc in Psychology (Major) and Forestry and Resources Conservation (minor) 
     institution: National Taiwan University
     year: 2019
@@ -29,10 +34,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:r08227112@ntu.edu.tw'
-- icon: facebook
-  icon_pack: fab
-  link: https://www.facebook.com/profile.php?id=100002566326977
+  link: "mailto:tzu-yao.lin@maastrichtuniversity.nl"
 - icon: github
   icon_pack: fab
   link: https://github.com/xup6y3ul6
@@ -47,6 +49,6 @@ social:
   icon_pack: ai
   link: uploads/TzuYaoLin_CV.pdf
 
-email: "r08227112@ntu.edu.tw"
+email: "tzu-yao.lin@maastrichtuniversity.nl"
 highlight_name: true
 ---
