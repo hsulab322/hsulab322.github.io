@@ -1,3 +1,3 @@
 User-agent: *
 
-Sitemap: https://hsulab.psy.ntu.edu.tw/sitemap.xml
+Sitemap: https://hsulab.github.io/sitemap.xml

@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Panel data | Cognitive Psychometrics Lab</title>
-    <link>https://hsulab.psy.ntu.edu.tw/tag/panel-data/</link>
-      <atom:link href="https://hsulab.psy.ntu.edu.tw/tag/panel-data/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://hsulab.github.io/tag/panel-data/</link>
+      <atom:link href="https://hsulab.github.io/tag/panel-data/index.xml" rel="self" type="application/rss+xml" />
     <description>Panel data</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © 2021-2023 Cognitive Psychometrics Lab. All rights reserved.</copyright><lastBuildDate>Sat, 01 Jan 2005 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://hsulab.psy.ntu.edu.tw/media/logo_hu39dac0accd2519207393463f587ca00e_161255_300x300_fit_lanczos_3.png</url>
+      <url>https://hsulab.github.io/media/logo_hu39dac0accd2519207393463f587ca00e_161255_300x300_fit_lanczos_3.png</url>
       <title>Panel data</title>
-      <link>https://hsulab.psy.ntu.edu.tw/tag/panel-data/</link>
+      <link>https://hsulab.github.io/tag/panel-data/</link>
     </image>
     
     <item>
       <title>The tune in-and-out model: A random walk and its application to a presidential election survey</title>
-      <link>https://hsulab.psy.ntu.edu.tw/publication/content/publication/hsu-2005-a/</link>
+      <link>https://hsulab.github.io/publication/content/publication/hsu-2005-a/</link>
       <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
-      <guid>https://hsulab.psy.ntu.edu.tw/publication/content/publication/hsu-2005-a/</guid>
+      <guid>https://hsulab.github.io/publication/content/publication/hsu-2005-a/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The tune in-and-out model: A random walk and its application to a presidential election survey</title>
-      <link>https://hsulab.psy.ntu.edu.tw/publication/hsu-2005-a/</link>
+      <link>https://hsulab.github.io/publication/hsu-2005-a/</link>
       <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
-      <guid>https://hsulab.psy.ntu.edu.tw/publication/hsu-2005-a/</guid>
+      <guid>https://hsulab.github.io/publication/hsu-2005-a/</guid>
       <description></description>
     </item>
     

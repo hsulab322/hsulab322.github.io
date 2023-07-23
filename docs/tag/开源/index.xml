@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>开源 | Cognitive Psychometrics Lab</title>
-    <link>https://hsulab.psy.ntu.edu.tw/tag/%E5%BC%80%E6%BA%90/</link>
-      <atom:link href="https://hsulab.psy.ntu.edu.tw/tag/%E5%BC%80%E6%BA%90/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://hsulab.github.io/tag/%E5%BC%80%E6%BA%90/</link>
+      <atom:link href="https://hsulab.github.io/tag/%E5%BC%80%E6%BA%90/index.xml" rel="self" type="application/rss+xml" />
     <description>开源</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © 2021-2023 Cognitive Psychometrics Lab. All rights reserved.</copyright><lastBuildDate>Sun, 13 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://hsulab.psy.ntu.edu.tw/media/logo_hu39dac0accd2519207393463f587ca00e_161255_300x300_fit_lanczos_3.png</url>
+      <url>https://hsulab.github.io/media/logo_hu39dac0accd2519207393463f587ca00e_161255_300x300_fit_lanczos_3.png</url>
       <title>开源</title>
-      <link>https://hsulab.psy.ntu.edu.tw/tag/%E5%BC%80%E6%BA%90/</link>
+      <link>https://hsulab.github.io/tag/%E5%BC%80%E6%BA%90/</link>
     </image>
     
     <item>
       <title>Welcome to Wowchemy, the website builder for Hugo</title>
-      <link>https://hsulab.psy.ntu.edu.tw/post/getting-started/</link>
+      <link>https://hsulab.github.io/post/getting-started/</link>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://hsulab.psy.ntu.edu.tw/post/getting-started/</guid>
+      <guid>https://hsulab.github.io/post/getting-started/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;The Wowchemy website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site&lt;/li&gt;

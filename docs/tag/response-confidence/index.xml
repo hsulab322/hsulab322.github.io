@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Response Confidence | Cognitive Psychometrics Lab</title>
-    <link>https://hsulab.psy.ntu.edu.tw/tag/response-confidence/</link>
-      <atom:link href="https://hsulab.psy.ntu.edu.tw/tag/response-confidence/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://hsulab.github.io/tag/response-confidence/</link>
+      <atom:link href="https://hsulab.github.io/tag/response-confidence/index.xml" rel="self" type="application/rss+xml" />
     <description>Response Confidence</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © 2021-2023 Cognitive Psychometrics Lab. All rights reserved.</copyright><lastBuildDate>Thu, 01 Aug 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://hsulab.psy.ntu.edu.tw/media/logo_hu39dac0accd2519207393463f587ca00e_161255_300x300_fit_lanczos_3.png</url>
+      <url>https://hsulab.github.io/media/logo_hu39dac0accd2519207393463f587ca00e_161255_300x300_fit_lanczos_3.png</url>
       <title>Response Confidence</title>
-      <link>https://hsulab.psy.ntu.edu.tw/tag/response-confidence/</link>
+      <link>https://hsulab.github.io/tag/response-confidence/</link>
     </image>
     
     <item>
       <title>文化共識理論架構下的閾值理論延伸：排序型類別資料分析</title>
-      <link>https://hsulab.psy.ntu.edu.tw/project/ltcm/</link>
+      <link>https://hsulab.github.io/project/ltcm/</link>
       <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://hsulab.psy.ntu.edu.tw/project/ltcm/</guid>
+      <guid>https://hsulab.github.io/project/ltcm/</guid>
       <description>&lt;p&gt;Cultural consensus theory (CCT), developed by Batchelder and colleagues in the mid-1980s, is a cognitively-driven information-pooling approach to assess people&amp;rsquo;s consensus when the culturally correct answers are not known a priori, therefore helping measure the extent to which cultural knowledge or beliefs are shared. The CCT methodology originally aims at analyzing data consisting of binary (true/false or yes/no) responses to interview questions within a culturally-related context. Later work by Batchelder and colleagues extended CCT to account for the ordinal categorical data type (e.g., the Likert-type questionnaires). In this project we develop an alternative approach to CCT modeling for the ordinal categorical data type. Specifically, we incorporate a response-confidence embedded threshold theory into the CCT framework. We systematically evaluate the fit of the model by hierarchical Bayesian Markov chain Monte Carlo simulation, and the results will be discussed.&lt;/p&gt;
 &lt;p&gt;「文化共識理論」是一以認知模式為本之分析方法，由學者Batchelder及其同事於 1980年代發展出。此方法旨在分析群組人士在文化影響下對於某些知識或意見之共識，特別是當正確答案屬未知狀態。此方法最初發展僅限用於文化情境底下二分回答選項之資料，爾後Batchelder及其同事結合信號偵測理論及測驗理論的一些元素，將之延伸至可處理排序型類別資料(包括李克特量表)。本研究在「文化共識理論」架構下提出另一路徑，發展一結合反應信心於閾值理論的分析方法處理排序型類別資料。我們藉電腦模擬評估此法之可行性，特別是，我們採階層式貝氏統計法，透過馬可夫鏈蒙地卡羅法進行參數估計。&lt;/p&gt;
 </description>
@@ -24,25 +24,25 @@
     
     <item>
       <title>The influence of combination of response confidence scale with adaptive methods in threshold estimation experiments</title>
-      <link>https://hsulab.psy.ntu.edu.tw/publication/content/publication/huang-2019/</link>
+      <link>https://hsulab.github.io/publication/content/publication/huang-2019/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://hsulab.psy.ntu.edu.tw/publication/content/publication/huang-2019/</guid>
+      <guid>https://hsulab.github.io/publication/content/publication/huang-2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The influence of combination of response confidence scale with adaptive methods in threshold estimation experiments</title>
-      <link>https://hsulab.psy.ntu.edu.tw/publication/huang-2019/</link>
+      <link>https://hsulab.github.io/publication/huang-2019/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://hsulab.psy.ntu.edu.tw/publication/huang-2019/</guid>
+      <guid>https://hsulab.github.io/publication/huang-2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>以信心強度為底之適測方法閾值估計探究</title>
-      <link>https://hsulab.psy.ntu.edu.tw/project/rcete/</link>
+      <link>https://hsulab.github.io/project/rcete/</link>
       <pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
-      <guid>https://hsulab.psy.ntu.edu.tw/project/rcete/</guid>
+      <guid>https://hsulab.github.io/project/rcete/</guid>
       <description>&lt;p&gt;In this project we proposed, mainly methodologically, an alternative method for threshold estimation that is response-confidence embedded and can be implemented into existing (non-parametric, fixed-step-size) up-down methods. We investigated via simulation the convergence pattern of threshold estimation. Using the 75% threshold estimation as an example, we showed that for both large (n=150) and small (n=50) sample sizes, the estimate is by and large good for small step sizes. In particular, for small sample size the convergence depends more on whether the initial value is not far away from the target.&lt;/p&gt;
 &lt;p&gt;我們從方法學角度探討以信心強度為底之閾值估計法則，此法則可套用於現有之（無母數、固定梯級）適測方法。我們藉電腦模擬有系統操弄變項，探討此法則閾值估計之收斂性。我們以75%閾值估計為例，說明不管在大樣本(=150)還是小樣本(=50)情況下，閾值估計在梯級很小時皆大體良好。特別是，在小樣本情況下，閾值估計是否良好端視是否起始值距目標值不要太遠。&lt;/p&gt;
 </description>
@@ -50,17 +50,17 @@
     
     <item>
       <title>A threshold theory account of psychometric functions with response confidence under the balance condition</title>
-      <link>https://hsulab.psy.ntu.edu.tw/publication/content/publication/hsu-2015/</link>
+      <link>https://hsulab.github.io/publication/content/publication/hsu-2015/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://hsulab.psy.ntu.edu.tw/publication/content/publication/hsu-2015/</guid>
+      <guid>https://hsulab.github.io/publication/content/publication/hsu-2015/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A threshold theory account of psychometric functions with response confidence under the balance condition</title>
-      <link>https://hsulab.psy.ntu.edu.tw/publication/hsu-2015/</link>
+      <link>https://hsulab.github.io/publication/hsu-2015/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://hsulab.psy.ntu.edu.tw/publication/hsu-2015/</guid>
+      <guid>https://hsulab.github.io/publication/hsu-2015/</guid>
       <description></description>
     </item>
     

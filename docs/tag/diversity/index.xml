@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>diversity | Cognitive Psychometrics Lab</title>
-    <link>https://hsulab.psy.ntu.edu.tw/tag/diversity/</link>
-      <atom:link href="https://hsulab.psy.ntu.edu.tw/tag/diversity/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://hsulab.github.io/tag/diversity/</link>
+      <atom:link href="https://hsulab.github.io/tag/diversity/index.xml" rel="self" type="application/rss+xml" />
     <description>diversity</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © 2021-2023 Cognitive Psychometrics Lab. All rights reserved.</copyright><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://hsulab.psy.ntu.edu.tw/media/logo_hu39dac0accd2519207393463f587ca00e_161255_300x300_fit_lanczos_3.png</url>
+      <url>https://hsulab.github.io/media/logo_hu39dac0accd2519207393463f587ca00e_161255_300x300_fit_lanczos_3.png</url>
       <title>diversity</title>
-      <link>https://hsulab.psy.ntu.edu.tw/tag/diversity/</link>
+      <link>https://hsulab.github.io/tag/diversity/</link>
     </image>
     
     <item>
       <title>Revisiting the index of entropy-based emodiversity</title>
-      <link>https://hsulab.psy.ntu.edu.tw/publication/content/publication/ding-2021/</link>
+      <link>https://hsulab.github.io/publication/content/publication/ding-2021/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://hsulab.psy.ntu.edu.tw/publication/content/publication/ding-2021/</guid>
+      <guid>https://hsulab.github.io/publication/content/publication/ding-2021/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Revisiting the index of entropy-based emodiversity</title>
-      <link>https://hsulab.psy.ntu.edu.tw/publication/ding-2021/</link>
+      <link>https://hsulab.github.io/publication/ding-2021/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://hsulab.psy.ntu.edu.tw/publication/ding-2021/</guid>
+      <guid>https://hsulab.github.io/publication/ding-2021/</guid>
       <description></description>
     </item>
     

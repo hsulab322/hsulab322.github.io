@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Yan-Jun Huang | Cognitive Psychometrics Lab</title>
-    <link>https://hsulab.psy.ntu.edu.tw/author/yan-jun-huang/</link>
-      <atom:link href="https://hsulab.psy.ntu.edu.tw/author/yan-jun-huang/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://hsulab.github.io/author/yan-jun-huang/</link>
+      <atom:link href="https://hsulab.github.io/author/yan-jun-huang/index.xml" rel="self" type="application/rss+xml" />
     <description>Yan-Jun Huang</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © 2021-2023 Cognitive Psychometrics Lab. All rights reserved.</copyright><lastBuildDate>Wed, 20 Apr 2022 13:25:42 +0000</lastBuildDate>
     <image>
-      <url>https://hsulab.psy.ntu.edu.tw/author/yan-jun-huang/avatar_hu52a603635ecebd45650b162dadabb4e5_12861_270x270_fill_q75_lanczos_center.jpg</url>
+      <url>https://hsulab.github.io/author/yan-jun-huang/avatar_hu52a603635ecebd45650b162dadabb4e5_12861_270x270_fill_q75_lanczos_center.jpg</url>
       <title>Yan-Jun Huang</title>
-      <link>https://hsulab.psy.ntu.edu.tw/author/yan-jun-huang/</link>
+      <link>https://hsulab.github.io/author/yan-jun-huang/</link>
     </image>
     
     <item>
       <title>Incorporating response confidence into adaptive methods for threshold estimation</title>
-      <link>https://hsulab.psy.ntu.edu.tw/publication/cheng/</link>
+      <link>https://hsulab.github.io/publication/cheng/</link>
       <pubDate>Wed, 20 Apr 2022 13:25:42 +0000</pubDate>
-      <guid>https://hsulab.psy.ntu.edu.tw/publication/cheng/</guid>
+      <guid>https://hsulab.github.io/publication/cheng/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The influence of combination of response confidence scale with adaptive methods in threshold estimation experiments</title>
-      <link>https://hsulab.psy.ntu.edu.tw/publication/huang-2019/</link>
+      <link>https://hsulab.github.io/publication/huang-2019/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://hsulab.psy.ntu.edu.tw/publication/huang-2019/</guid>
+      <guid>https://hsulab.github.io/publication/huang-2019/</guid>
       <description></description>
     </item>
     

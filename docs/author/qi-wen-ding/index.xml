@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Qi-Wen Ding | Cognitive Psychometrics Lab</title>
-    <link>https://hsulab.psy.ntu.edu.tw/author/qi-wen-ding/</link>
-      <atom:link href="https://hsulab.psy.ntu.edu.tw/author/qi-wen-ding/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://hsulab.github.io/author/qi-wen-ding/</link>
+      <atom:link href="https://hsulab.github.io/author/qi-wen-ding/index.xml" rel="self" type="application/rss+xml" />
     <description>Qi-Wen Ding</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © 2021-2023 Cognitive Psychometrics Lab. All rights reserved.</copyright><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://hsulab.psy.ntu.edu.tw/author/qi-wen-ding/avatar_hu5ad97fb57c86052fa5998adeae7deccd_1765909_270x270_fill_q75_lanczos_center.jpg</url>
+      <url>https://hsulab.github.io/author/qi-wen-ding/avatar_hu5ad97fb57c86052fa5998adeae7deccd_1765909_270x270_fill_q75_lanczos_center.jpg</url>
       <title>Qi-Wen Ding</title>
-      <link>https://hsulab.psy.ntu.edu.tw/author/qi-wen-ding/</link>
+      <link>https://hsulab.github.io/author/qi-wen-ding/</link>
     </image>
     
     <item>
       <title>Revisiting the index of entropy-based emodiversity</title>
-      <link>https://hsulab.psy.ntu.edu.tw/publication/ding-2021/</link>
+      <link>https://hsulab.github.io/publication/ding-2021/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://hsulab.psy.ntu.edu.tw/publication/ding-2021/</guid>
+      <guid>https://hsulab.github.io/publication/ding-2021/</guid>
       <description></description>
     </item>
     
