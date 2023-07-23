@@ -1,0 +1,34 @@
+# Theme metadata
+name = "peaky_blinders"
+
+# Is theme light or dark?
+is_light = true
+
+# Primary
+primary = "#C2A981"
+
+# Menu
+menu_primary = "#D1DAD5"
+menu_text = "#000"
+menu_text_active = "#000"
+menu_title = "#000"
+
+# Links
+link = "#67797B"
+link_hover = "#364954"
+link_decoration = "underline"
+
+# Home sections
+home_section_odd = "#ECEFF1"
+home_section_even = "#FFFFFF"
+
+font = "rose"
+
+[dark]
+   ink = "#C4AA9D"
+  link_hover = "#C2A981"
+  link_decoration = "underline"
+
+  background = "#021617"  
+  home_section_odd = "#021617"
+  home_section_even = "#0E272C"

@@ -1,6 +1,6 @@
 ---
 title: Courses
-type: page
+type: book
 
 view: 2
 
@@ -10,3 +10,5 @@ header:
 ---
 
 I teach the following courses:
+
+{{< list_children >}} 

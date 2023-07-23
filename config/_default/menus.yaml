@@ -7,6 +7,9 @@ main:
   - name: About
     url: '#about'
     weight: 10
+  - name: PI
+    url: '#pi'
+    weight: 15
   - name: Members
     url: '#members'
     weight: 20

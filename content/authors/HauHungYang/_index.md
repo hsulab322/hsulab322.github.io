@@ -19,6 +19,12 @@ interests:
 - "Drift Diffusion Model"
 - "Adaptive Method"
 
+education:
+  courses:
+  - course: BSc in Psychology
+    institution: National Taiwan University
+    year: 2020
+
 social:
 - icon: envelope
   icon_pack: fas

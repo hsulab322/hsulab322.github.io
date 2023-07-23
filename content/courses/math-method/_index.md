@@ -6,7 +6,7 @@ date: '2021-01-24'
 type: book
 ---
 
-{{< figure src="featured.jpg" >}}
+![](/courses/math-method/_index_files/Figure_5.5.png)
 
 {{< toc hide_on="xl" >}}
 

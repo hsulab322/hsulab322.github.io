@@ -481,4 +481,17 @@ In this thesis I systematically investigate via simulations the asymptotic and s
   url      = {https://hdl.handle.net/11296/ftd55w},
 }
 
+@InBook{Hsu2018,
+  author    = {Hsu, Yung-Fong},
+  chapter   = {心理學方法：心理變項量化與科學探討},
+  editor    = {Liang, Keng-Chen},
+  pages     = {41--58},
+  publisher = {國立臺灣大學出版中心},
+  title     = {心理學：身體心靈與文化的整合},
+  year      = {2018},
+  edition   = {1st},
+  isbn      = {978-986-350-292-0},
+  month     = sep,
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

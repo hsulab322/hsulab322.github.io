@@ -31,8 +31,6 @@ content:
   filter_button:
   - name: All
     tag: '*'
-  - name: Bayesian
-    tag: Bayesian
   - name: Decision Making
     tag: Decision Making
   - name: Emotion

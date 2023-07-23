@@ -1,21 +1,20 @@
 ---
 widget: people
-headless: false
+headless: true
 active: true
 weight: 30
 
 # ... Put Your Section Options Here (title etc.) ...
-title: Members
+title: Current Members
 subtitle: "[See full members](./people/)"
 
-authors:
-  - YungFongHsu
+authors: ["YungFongHsu"]
 
 content:
   # Choose which groups/teams of users to display.
   #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
   user_groups:
-    - Principal Investigator # weight: 1X
+    # - Principal Investigator # weight: 1X
     # - Researchers          # weight: 2X
     - Graduate Students      # weight: 3X
     - Undergraduate Students # weight: 4X

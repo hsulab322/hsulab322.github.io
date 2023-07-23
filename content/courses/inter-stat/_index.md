@@ -6,12 +6,11 @@ date: '2021-01-24'
 type: book
 ---
 
-{{< figure src="featured.jpg" >}}
+![](/courses/inter-stat/_index_files/pdf_and_cdf.png)
 
 {{< toc hide_on="xl" >}}
 
 ## Course information
-
 - Curriculum Number: Psy3010  
 - Curriculum Identity Number: 207 30000 
 - Semester: 
