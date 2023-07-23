@@ -4,9 +4,9 @@ theme: "starter-hugo-academic"
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: Cognitive Psychometrics Lab # Website name
-baseurl: 'https://hsulab.psy.ntu.edu.tw/' # Website URL
-copyright: 'Copyright © {2021} Cognitive Psychometrics Lab' # Footer text, e.g. '© {year} Me'
+title: "Cognitive Psychometrics Lab" # Website name
+baseurl: "https://hsulab.psy.ntu.edu.tw/" # Website URL
+copyright: "Copyright © 2021-{year} Cognitive Psychometrics Lab. All rights reserved."
 
 ############################
 ## LANGUAGE

@@ -5,7 +5,7 @@
     <link>https://hsulab.psy.ntu.edu.tw/author/yan-jun-huang/</link>
       <atom:link href="https://hsulab.psy.ntu.edu.tw/author/yan-jun-huang/index.xml" rel="self" type="application/rss+xml" />
     <description>Yan-Jun Huang</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © {2021} Cognitive Psychometrics Lab</copyright><lastBuildDate>Wed, 20 Apr 2022 13:25:42 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © 2021-2023 Cognitive Psychometrics Lab. All rights reserved.</copyright><lastBuildDate>Wed, 20 Apr 2022 13:25:42 +0000</lastBuildDate>
     <image>
       <url>https://hsulab.psy.ntu.edu.tw/author/yan-jun-huang/avatar_hu52a603635ecebd45650b162dadabb4e5_12861_270x270_fill_q75_lanczos_center.jpg</url>
       <title>Yan-Jun Huang</title>
@@ -26,6 +26,11 @@
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://hsulab.psy.ntu.edu.tw/publication/huang-2019/</guid>
       <description></description>
+    </item>
+    
+  </channel>
+</rss>
+n></description>
     </item>
     
   </channel>

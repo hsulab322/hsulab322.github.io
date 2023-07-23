@@ -5,7 +5,7 @@ superuser: false
 
 user_groups: ["Alumni"]
 
-role: MSc Student, Psychology
+role: Research Assistant
 
 organizations:
 - name: Academia Sinica 
@@ -14,8 +14,18 @@ organizations:
 # bio: "My research interests include ...."
 
 interests:
-- Emodiversity
-- Causal inference in observational data
+  - Emodiversity
+  - Causal inference in observational data
+  - Effect size
+
+education:
+  courses:
+  - course: MSc in Psychology
+    institution: National Taiwan University
+    year: 2021
+  - course: BSc in Psychology
+    institution: National Taiwan University
+    year: 2018
 
 social:
 - icon: envelope

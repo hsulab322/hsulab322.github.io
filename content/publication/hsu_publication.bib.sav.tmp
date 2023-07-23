@@ -184,7 +184,7 @@
   title     = {Assessing memory deficits using latent class (hierarchical) multinomial processing tree modeling: An illustration using data from clinical groups in {T}aiwan},
   year      = {2013},
   issn      = {1013-9656},
-  month     = {Mar},
+  month     = mar,
   number    = {1},
   pages     = {57--73},
   volume    = {55},
@@ -461,4 +461,4 @@ To conclude, threshold estimations by the weighted up-down procedure were biased
   title    = {Recasting the feeling of knowing – a meta-analysis study using probability models},
   year     = {2011},
   type     = {mathesis},
-  abstract = {Feeling of Knowing (FOK) judgments refer to the feelings an individual has regarding his or her knowledge for a specific subject, more specifically whether or not that knowledge exists within memory. And the study of accuracy of FOK is to evaluate how accurate the feeling reflect the actual presence or absence within memory. Correspondin
+  abstract = {Feeling of Knowing (FOK) judgments refer to the feelings an individual has regarding his or her knowledge for a specific subject, more specifically whether or not that knowledge exists within memory. And the study of accuracy of FOK is to evaluate how accurate the feeling reflect the actual presence or absence within memory. Corresponding t

@@ -5,7 +5,8 @@
 
 # Appearance
 
-theme: earth # minimal
+theme: peaky_blinders
+theme_night: minimal
 day_night: true
 font: ''
 font_size: L

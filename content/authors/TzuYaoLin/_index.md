@@ -20,6 +20,12 @@ interests:
 - Cultural Consensus Theory
 - Multinomial Processing Tree Model
 
+education:
+  courses:
+  - course: BSc in Psychology (Major) and Forestry and Resources Conservation (minor) 
+    institution: National Taiwan University
+    year: 2019
+
 social:
 - icon: envelope
   icon_pack: fas

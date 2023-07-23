@@ -20,6 +20,18 @@ interests:
 - Longitudinal Data Analysis Methods
 - Achievement Goals and Academic Attributions
 
+education:
+  courses:
+  - course: MS in AppliedMathematical Sciences (Mathematical Statistics)
+    institution: National Taiwan University
+    year: 2020
+  - course: BSc in Mathematics
+    institution: National Taiwan University
+    year: 2017
+  - course: BSc in Psychology
+    institution: National Taiwan University
+    year: 2017
+    
 social:
 - icon: envelope
   icon_pack: fas
