@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Threshold Theory | Cognitive Psychometrics Lab</title>
-    <link>https://hsulab.github.io/tag/threshold-theory/</link>
-      <atom:link href="https://hsulab.github.io/tag/threshold-theory/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://hsulab322.github.io/tag/threshold-theory/</link>
+      <atom:link href="https://hsulab322.github.io/tag/threshold-theory/index.xml" rel="self" type="application/rss+xml" />
     <description>Threshold Theory</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © 2021-2023 Cognitive Psychometrics Lab. All rights reserved.</copyright><lastBuildDate>Thu, 01 Aug 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://hsulab.github.io/media/logo_hu39dac0accd2519207393463f587ca00e_161255_300x300_fit_lanczos_3.png</url>
+      <url>https://hsulab322.github.io/media/logo_hu39dac0accd2519207393463f587ca00e_161255_300x300_fit_lanczos_3.png</url>
       <title>Threshold Theory</title>
-      <link>https://hsulab.github.io/tag/threshold-theory/</link>
+      <link>https://hsulab322.github.io/tag/threshold-theory/</link>
     </image>
     
     <item>
       <title>文化共識理論架構下的閾值理論延伸：排序型類別資料分析</title>
-      <link>https://hsulab.github.io/project/ltcm/</link>
+      <link>https://hsulab322.github.io/project/ltcm/</link>
       <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://hsulab.github.io/project/ltcm/</guid>
+      <guid>https://hsulab322.github.io/project/ltcm/</guid>
       <description>&lt;p&gt;Cultural consensus theory (CCT), developed by Batchelder and colleagues in the mid-1980s, is a cognitively-driven information-pooling approach to assess people&amp;rsquo;s consensus when the culturally correct answers are not known a priori, therefore helping measure the extent to which cultural knowledge or beliefs are shared. The CCT methodology originally aims at analyzing data consisting of binary (true/false or yes/no) responses to interview questions within a culturally-related context. Later work by Batchelder and colleagues extended CCT to account for the ordinal categorical data type (e.g., the Likert-type questionnaires). In this project we develop an alternative approach to CCT modeling for the ordinal categorical data type. Specifically, we incorporate a response-confidence embedded threshold theory into the CCT framework. We systematically evaluate the fit of the model by hierarchical Bayesian Markov chain Monte Carlo simulation, and the results will be discussed.&lt;/p&gt;
 &lt;p&gt;「文化共識理論」是一以認知模式為本之分析方法，由學者Batchelder及其同事於 1980年代發展出。此方法旨在分析群組人士在文化影響下對於某些知識或意見之共識，特別是當正確答案屬未知狀態。此方法最初發展僅限用於文化情境底下二分回答選項之資料，爾後Batchelder及其同事結合信號偵測理論及測驗理論的一些元素，將之延伸至可處理排序型類別資料(包括李克特量表)。本研究在「文化共識理論」架構下提出另一路徑，發展一結合反應信心於閾值理論的分析方法處理排序型類別資料。我們藉電腦模擬評估此法之可行性，特別是，我們採階層式貝氏統計法，透過馬可夫鏈蒙地卡羅法進行參數估計。&lt;/p&gt;
 </description>
@@ -24,9 +24,9 @@
     
     <item>
       <title>心理物理學相似律所含參數之函數性質於費區納表徵下之探究</title>
-      <link>https://hsulab.github.io/project/los2/</link>
+      <link>https://hsulab322.github.io/project/los2/</link>
       <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
-      <guid>https://hsulab.github.io/project/los2/</guid>
+      <guid>https://hsulab322.github.io/project/los2/</guid>
       <description>&lt;p&gt;This project concerns a theoretical study of psychophysics.
 We investigate the properties of the law of similarity (on
 the Weber sensitivities) within the Fechnerian framework.
@@ -43,9 +43,9 @@ similarity. We also link our results to those in Iverson
     
     <item>
       <title>心理物理學相似律與仿射表徵互動之探究</title>
-      <link>https://hsulab.github.io/project/los/</link>
+      <link>https://hsulab322.github.io/project/los/</link>
       <pubDate>Sat, 01 Aug 2015 00:00:00 +0000</pubDate>
-      <guid>https://hsulab.github.io/project/los/</guid>
+      <guid>https://hsulab322.github.io/project/los/</guid>
       <description>&lt;p&gt;In this project we use the Fechner method (of taking the limit of sequence of integrals of jnd’s) to construct the scales in a (weakly balanced) affine representation. We postulate a psychophysical law of similarity, and study its impact on the possible functional forms in the affine representation. Under this framework we further study the conditions under which affine representations are also Fechnerian, and link the results to the solutions in Iverson (2006) that was worked out within the Fechnerian framework. The work of this project has been summarized in a paper titled “Conditions under which affine representations are also Fechnerian under the power law of similarity on the Weber sensitivities” to be published in the Journal of Mathematical Psychology (see the attached file).&lt;/p&gt;
 &lt;p&gt;我們採用一藉區辨極限及差異閾積分建構心理物理量尺的「費區納法」，探究心理物理「仿射表徵」之量尺性質。我們假設一心理物理「相似律」，探討在此同質性假設下，仿射表徵的量尺函數形式。我們並探究在此框設下，仿射表徵可簡化為費區納表徵的條件，並討論其與Iverson (2006) 於費區納表徵下所得之結果的關聯。本研究成果已寫成論文 ”Conditions under which affine representations are also Fechnerian under the power law of similarity on the Weber sensitivities”，且即將發表於Journal of Mathematical Psychology期刊（見附文）。&lt;/p&gt;
 </description>
@@ -53,17 +53,17 @@ similarity. We also link our results to those in Iverson
     
     <item>
       <title>A threshold theory account of psychometric functions with response confidence under the balance condition</title>
-      <link>https://hsulab.github.io/publication/content/publication/hsu-2015/</link>
+      <link>https://hsulab322.github.io/publication/content/publication/hsu-2015/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://hsulab.github.io/publication/content/publication/hsu-2015/</guid>
+      <guid>https://hsulab322.github.io/publication/content/publication/hsu-2015/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A threshold theory account of psychometric functions with response confidence under the balance condition</title>
-      <link>https://hsulab.github.io/publication/hsu-2015/</link>
+      <link>https://hsulab322.github.io/publication/hsu-2015/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://hsulab.github.io/publication/hsu-2015/</guid>
+      <guid>https://hsulab322.github.io/publication/hsu-2015/</guid>
       <description></description>
     </item>
     

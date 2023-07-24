@@ -17,6 +17,7 @@ design:
 ---
 
 {{< gallery caption-position="bottom" hover-effect="grow" caption-effect="fade" >}}
+{{< figure link="img/20230719_mathpsych2023.jpg" caption="MathPsych2023" >}}
 {{< figure link="img/20211230_meeting.png" caption="Meeting" >}}
 {{< figure link="img/20210203_fmri_study_group.jpg" caption="fMRI Study Group" >}}
 {{< figure link="img/20201118_NTU_psy_conf.jpeg" caption="2nd & 3rd Poster Award" >}}

@@ -12,9 +12,9 @@ authors: ["YungFongHsu"]
 
 content:
   # Choose which groups/teams of users to display.
-  #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
+  # Edit `user_groups` in each user's profile to add them to one or more of these groups.
   user_groups:
-    # - Principal Investigator # weight: 1X
+    - Principal Investigator # weight: 1X
     # - Researchers          # weight: 2X
     - Graduate Students      # weight: 3X
     - Undergraduate Students # weight: 4X

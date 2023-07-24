@@ -6,7 +6,7 @@ theme: "starter-hugo-academic"
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: "Cognitive Psychometrics Lab" # Website name
-baseurl: "https://hsulab.github.io/" # https://hsulab.psy.ntu.edu.tw/Website URL
+baseurl: "https://hsulab322.github.io/" # https://hsulab.psy.ntu.edu.tw/
 copyright: "Copyright © 2021-{year} Cognitive Psychometrics Lab. All rights reserved."
 
 ############################
